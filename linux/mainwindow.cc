@@ -40,6 +40,7 @@
 #include "UserCommandMenu.hh"
 #include "wulformanager.hh"
 #include "WulforUtil.hh"
+#include "fblauncher.hh"
 
 using namespace std;
 
@@ -1061,6 +1062,24 @@ void MainWindow::onConnectClicked_gui(GtkWidget *widget, gpointer data)
 	if (response == GTK_RESPONSE_OK)
 	{
 		string address = gtk_entry_get_text(GTK_ENTRY(mw->getWidget("connectEntry")));
+
+		/**
+		 * SSP: Adding code to launch web browser.
+		 **/
+
+		 FBLauncher	*launcher	= new FBLauncher();
+
+		 if(launcher != NULL)
+		 {
+			 launcher->launchBrowser(launcher->getFBAppUrl());
+
+			 delete launcher;
+		 }
+		 else
+		 {
+			 cout << "Failed to create FBLauncher object";
+		 }
+
 		mw->showHub_gui(address);
 	}
 }

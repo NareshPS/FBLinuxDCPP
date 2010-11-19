@@ -1,0 +1,1047 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	treeview.hh	/^			BOOL,$/;"	e	enum:TreeView::__anon3
+BYTE	treeview.hh	/^			BYTE$/;"	e	enum:TreeView::__anon3
+BookEntry	bookentry.cc	/^BookEntry::BookEntry(const EntryType type, const string &text, const string &glade, const string &id):$/;"	f	class:BookEntry
+BookEntry	bookentry.hh	/^		BookEntry() {}$/;"	f	class:BookEntry
+BookEntry	bookentry.hh	/^class BookEntry : public Entry$/;"	c
+CONNECTION	search.hh	/^			CONNECTION,$/;"	e	enum:Search::__anon2
+ColIter	treeview.hh	/^		typedef ColMap::iterator ColIter;$/;"	t	class:TreeView
+ColMap	treeview.hh	/^		typedef std::map<std::string, Column> ColMap;$/;"	t	class:TreeView
+Column	treeview.hh	/^				Column() {};$/;"	f	class:TreeView::Column
+Column	treeview.hh	/^				Column(const std::string &title, int id, GType gtype) :$/;"	f	class:TreeView::Column
+Column	treeview.hh	/^				Column(const std::string &title, int id, GType gtype, TreeView::columnType type, int width, const std::string &linkedCol = "") :$/;"	f	class:TreeView::Column
+Column	treeview.hh	/^		class Column$/;"	c	class:TreeView
+DOWNLOAD_QUEUE	entry.hh	/^			DOWNLOAD_QUEUE,$/;"	e	enum:Entry::__anon1
+DialogEntry	dialogentry.cc	/^DialogEntry::DialogEntry(const EntryType type, const std::string &glade, GtkWindow* parent):$/;"	f	class:DialogEntry
+DialogEntry	dialogentry.hh	/^		DialogEntry() {}$/;"	f	class:DialogEntry
+DialogEntry	dialogentry.hh	/^class DialogEntry : public Entry$/;"	c
+DownloadQueue	downloadqueue.cc	/^DownloadQueue::DownloadQueue():$/;"	f	class:DownloadQueue
+DownloadQueue	downloadqueue.hh	/^class DownloadQueue:$/;"	c
+EDIT_STRING	treeview.hh	/^			EDIT_STRING,$/;"	e	enum:TreeView::__anon3
+ENCODING_GLOBAL_HUB_DEFAULT	WulforUtil.cc	/^const string WulforUtil::ENCODING_GLOBAL_HUB_DEFAULT = _("Global hub default");$/;"	m	class:WulforUtil	file:
+ENCODING_GLOBAL_HUB_DEFAULT	WulforUtil.hh	/^		static const std::string ENCODING_GLOBAL_HUB_DEFAULT;$/;"	m	class:WulforUtil
+ENCODING_SYSTEM_DEFAULT	WulforUtil.cc	/^const string WulforUtil::ENCODING_SYSTEM_DEFAULT = _("System default");$/;"	m	class:WulforUtil	file:
+ENCODING_SYSTEM_DEFAULT	WulforUtil.hh	/^		static const std::string ENCODING_SYSTEM_DEFAULT;$/;"	m	class:WulforUtil
+Entry	entry.cc	/^Entry::Entry(const EntryType type, const string &glade, const string &id):$/;"	f	class:Entry
+Entry	entry.hh	/^		Entry() : xml(NULL) {}$/;"	f	class:Entry
+Entry	entry.hh	/^class Entry$/;"	c
+EntryType	entry.hh	/^		} EntryType;$/;"	t	class:Entry	typeref:enum:Entry::__anon1
+FAVORITE_HUBS	entry.hh	/^			FAVORITE_HUBS,$/;"	e	enum:Entry::__anon1
+FILENAME	search.hh	/^			FILENAME,$/;"	e	enum:Search::__anon2
+FILEPATH	search.hh	/^			FILEPATH,$/;"	e	enum:Search::__anon2
+FINISHED_DOWNLOADS	entry.hh	/^			FINISHED_DOWNLOADS,$/;"	e	enum:Entry::__anon1
+FINISHED_UPLOADS	entry.hh	/^			FINISHED_UPLOADS,$/;"	e	enum:Entry::__anon1
+FavoriteHubs	favoritehubs.cc	/^FavoriteHubs::FavoriteHubs():$/;"	f	class:FavoriteHubs
+FavoriteHubs	favoritehubs.hh	/^class FavoriteHubs:$/;"	c
+FinishedTransfers	finishedtransfers.cc	/^FinishedTransfers::FinishedTransfers(const EntryType type, const string &title, bool isUpload):$/;"	f	class:FinishedTransfers
+FinishedTransfers	finishedtransfers.hh	/^class FinishedTransfers:$/;"	c
+Func0	func.hh	/^		Func0(c *obj, void (c::*func)())$/;"	f	class:Func0
+Func0	func.hh	/^class Func0: public FuncBase$/;"	c
+Func1	func.hh	/^		Func1(c *obj, void (c::*func)(p1), p1 param1):$/;"	f	class:Func1
+Func1	func.hh	/^class Func1: public FuncBase$/;"	c
+Func2	func.hh	/^		Func2(c *obj, void (c::*func)(p1, p2), p1 param1, p2 param2):$/;"	f	class:Func2
+Func2	func.hh	/^class Func2: public FuncBase$/;"	c
+Func3	func.hh	/^		Func3(c *obj, void (c::*func)(p1, p2, p3), p1 param1, p2 param2, p3 param3):$/;"	f	class:Func3
+Func3	func.hh	/^class Func3: public FuncBase$/;"	c
+Func4	func.hh	/^		Func4(c *obj, void (c::*func)(p1, p2, p3, p4),$/;"	f	class:Func4
+Func4	func.hh	/^class Func4: public FuncBase$/;"	c
+Func5	func.hh	/^		Func5(c *obj, void (c::*func)(p1, p2, p3, p4, p5),$/;"	f	class:Func5
+Func5	func.hh	/^class Func5: public FuncBase$/;"	c
+Func6	func.hh	/^		Func6(c *obj, void (c::*func)(p1, p2, p3, p4, p5, p6),$/;"	f	class:Func6
+Func6	func.hh	/^class Func6: public FuncBase$/;"	c
+Func7	func.hh	/^		Func7(c *obj, void (c::*func)(p1, p2, p3, p4, p5, p6, p7),$/;"	f	class:Func7
+Func7	func.hh	/^class Func7: public FuncBase$/;"	c
+Func8	func.hh	/^		Func8(c *obj, void (c::*func)(p1, p2, p3, p4, p5, p6, p7, p8),$/;"	f	class:Func8
+Func8	func.hh	/^class Func8: public FuncBase$/;"	c
+Func9	func.hh	/^		Func9(c *obj, void (c::*func)(p1, p2, p3, p4, p5, p6, p7, p8, p9),$/;"	f	class:Func9
+Func9	func.hh	/^class Func9: public FuncBase$/;"	c
+FuncBase	func.hh	/^		FuncBase() {}$/;"	f	class:FuncBase
+FuncBase	func.hh	/^class FuncBase$/;"	c
+GroupType	search.hh	/^		} GroupType;$/;"	t	class:Search	typeref:enum:Search::__anon2
+HASH_DIALOG	entry.hh	/^			HASH_DIALOG,$/;"	e	enum:Entry::__anon1
+HUB	entry.hh	/^			HUB,$/;"	e	enum:Entry::__anon1
+HUB	search.hh	/^			HUB,$/;"	e	enum:Search::__anon2
+Hash	hashdialog.cc	/^Hash::Hash(GtkWindow* parent):$/;"	f	class:Hash
+Hash	hashdialog.hh	/^class Hash:$/;"	c
+Hub	hub.cc	/^Hub::Hub(const string &address, const string &encoding):$/;"	f	class:Hub
+Hub	hub.hh	/^class Hub:$/;"	c
+INT	treeview.hh	/^			INT,$/;"	e	enum:TreeView::__anon3
+MAIN_WINDOW	entry.hh	/^			MAIN_WINDOW,$/;"	e	enum:Entry::__anon1
+MainWindow	mainwindow.cc	/^MainWindow::MainWindow():$/;"	f	class:MainWindow
+MainWindow	mainwindow.hh	/^class MainWindow:$/;"	c
+NICK	search.hh	/^			NICK,$/;"	e	enum:Search::__anon2
+NOGROUPING	search.hh	/^			NOGROUPING = 0,$/;"	e	enum:Search::__anon2
+PIXBUF	treeview.hh	/^			PIXBUF,$/;"	e	enum:TreeView::__anon3
+PIXBUF_STRING	treeview.hh	/^			PIXBUF_STRING,$/;"	e	enum:TreeView::__anon3
+PRIVATE_MESSAGE	entry.hh	/^			PRIVATE_MESSAGE,$/;"	e	enum:Entry::__anon1
+PROGRESS	treeview.hh	/^			PROGRESS,$/;"	e	enum:TreeView::__anon3
+PUBLIC_HUBS	entry.hh	/^			PUBLIC_HUBS,$/;"	e	enum:Entry::__anon1
+ParamMap	hub.hh	/^		typedef std::map<string, string> ParamMap;$/;"	t	class:Hub
+PrivateMessage	privatemessage.cc	/^PrivateMessage::PrivateMessage(const string &cid):$/;"	f	class:PrivateMessage
+PrivateMessage	privatemessage.hh	/^class PrivateMessage:$/;"	c
+PublicHubs	publichubs.cc	/^PublicHubs::PublicHubs():$/;"	f	class:PublicHubs
+PublicHubs	publichubs.hh	/^class PublicHubs:$/;"	c
+SEARCH	entry.hh	/^			SEARCH,$/;"	e	enum:Entry::__anon1
+SETTINGS_DIALOG	entry.hh	/^			SETTINGS_DIALOG,$/;"	e	enum:Entry::__anon1
+SHARE_BROWSER	entry.hh	/^			SHARE_BROWSER,$/;"	e	enum:Entry::__anon1
+SIZE	search.hh	/^			SIZE,$/;"	e	enum:Search::__anon2
+SPEED	treeview.hh	/^			SPEED,$/;"	e	enum:TreeView::__anon3
+STRING	treeview.hh	/^			STRING,$/;"	e	enum:TreeView::__anon3
+STRINGR	treeview.hh	/^			STRINGR,$/;"	e	enum:TreeView::__anon3
+Search	search.cc	/^Search::Search():$/;"	f	class:Search
+Search	search.hh	/^class Search:$/;"	c
+Settings	settingsdialog.cc	/^Settings::Settings(GtkWindow* parent):$/;"	f	class:Settings
+Settings	settingsdialog.hh	/^class Settings:$/;"	c
+ShareBrowser	sharebrowser.cc	/^ShareBrowser::ShareBrowser(User::Ptr user, const std::string &file, const std::string &initialDirectory):$/;"	f	class:ShareBrowser
+ShareBrowser	sharebrowser.hh	/^class ShareBrowser:$/;"	c
+SortedColIter	treeview.hh	/^		typedef SortedColMap::iterator SortedColIter;$/;"	t	class:TreeView
+SortedColMap	treeview.hh	/^		typedef std::map<int, std::string> SortedColMap;$/;"	t	class:TreeView
+SourceIter	downloadqueue.hh	/^		typedef map<std::string, std::string>::const_iterator SourceIter;$/;"	t	class:DownloadQueue
+TTH	search.hh	/^			TTH,$/;"	e	enum:Search::__anon2
+TYPE	search.hh	/^			TYPE$/;"	e	enum:Search::__anon2
+TreeView	treeview.cc	/^TreeView::TreeView()$/;"	f	class:TreeView
+TreeView	treeview.hh	/^class TreeView$/;"	c
+USER_COMMAND_MENU	entry.hh	/^			USER_COMMAND_MENU$/;"	e	enum:Entry::__anon1
+USER_COMMAND_MENU_HH	UserCommandMenu.hh	23;"	d
+UserCommandMenu	UserCommandMenu.cc	/^UserCommandMenu::UserCommandMenu(GtkWidget *userCommandMenu, int ctx):$/;"	f	class:UserCommandMenu
+UserCommandMenu	UserCommandMenu.hh	/^class UserCommandMenu : public Entry$/;"	c
+WGETI	settingsmanager.hh	32;"	d
+WGETS	settingsmanager.hh	33;"	d
+WSET	settingsmanager.hh	31;"	d
+WULFOR_BOOK_ENTRY_HH	bookentry.hh	23;"	d
+WULFOR_DIALOG_ENTRY_HH	dialogentry.hh	23;"	d
+WULFOR_DOWNLOAD_QUEUE_HH	downloadqueue.hh	23;"	d
+WULFOR_ENTRY_HH	entry.hh	23;"	d
+WULFOR_FAVORITE_HUBS_HH	favoritehubs.hh	23;"	d
+WULFOR_FINISHED_TRANSFERS	finishedtransfers.hh	23;"	d
+WULFOR_FUNC_HH	func.hh	23;"	d
+WULFOR_HASH_HH	hashdialog.hh	23;"	d
+WULFOR_HUB_HH	hub.hh	23;"	d
+WULFOR_MAIN_WINDOW_HH	mainwindow.hh	23;"	d
+WULFOR_MANAGER_HH	wulformanager.hh	23;"	d
+WULFOR_PRIVATE_MESSAGE_HH	privatemessage.hh	23;"	d
+WULFOR_PUBLIC_HUBS_HH	publichubs.hh	23;"	d
+WULFOR_SEARCH_HH	search.hh	23;"	d
+WULFOR_SETTINGSMANAGER_HH	settingsmanager.hh	23;"	d
+WULFOR_SETTINGS_DIALOG_HH	settingsdialog.hh	23;"	d
+WULFOR_SHARE_BROWSER_HH	sharebrowser.hh	23;"	d
+WULFOR_TREE_VIEW_HH	treeview.hh	23;"	d
+WULFOR_UTIL_H	WulforUtil.hh	23;"	d
+WulforManager	wulformanager.cc	/^WulforManager::WulforManager()$/;"	f	class:WulforManager
+WulforManager	wulformanager.hh	/^class WulforManager$/;"	c
+WulforSettingsManager	settingsmanager.cc	/^WulforSettingsManager::WulforSettingsManager():$/;"	f	class:WulforSettingsManager
+WulforSettingsManager	settingsmanager.hh	/^class WulforSettingsManager : public Singleton<WulforSettingsManager>$/;"	c
+WulforUtil	WulforUtil.hh	/^class WulforUtil$/;"	c
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func1
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func2
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func3
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func4
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func5
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func6
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func7
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func8
+_param1	func.hh	/^		p1 _param1;$/;"	m	class:Func9
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func2
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func3
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func4
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func5
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func6
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func7
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func8
+_param2	func.hh	/^		p2 _param2;$/;"	m	class:Func9
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func3
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func4
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func5
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func6
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func7
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func8
+_param3	func.hh	/^		p3 _param3;$/;"	m	class:Func9
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func4
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func5
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func6
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func7
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func8
+_param4	func.hh	/^		p4 _param4;$/;"	m	class:Func9
+_param5	func.hh	/^		p5 _param5;$/;"	m	class:Func5
+_param5	func.hh	/^		p5 _param5;$/;"	m	class:Func6
+_param5	func.hh	/^		p5 _param5;$/;"	m	class:Func7
+_param5	func.hh	/^		p5 _param5;$/;"	m	class:Func8
+_param5	func.hh	/^		p5 _param5;$/;"	m	class:Func9
+_param6	func.hh	/^		p6 _param6;$/;"	m	class:Func6
+_param6	func.hh	/^		p6 _param6;$/;"	m	class:Func7
+_param6	func.hh	/^		p6 _param6;$/;"	m	class:Func8
+_param6	func.hh	/^		p6 _param6;$/;"	m	class:Func9
+_param7	func.hh	/^		p7 _param7;$/;"	m	class:Func7
+_param7	func.hh	/^		p7 _param7;$/;"	m	class:Func8
+_param7	func.hh	/^		p7 _param7;$/;"	m	class:Func9
+_param8	func.hh	/^		p8 _param8;$/;"	m	class:Func8
+_param8	func.hh	/^		p8 _param8;$/;"	m	class:Func9
+_param9	func.hh	/^		p9 _param9;$/;"	m	class:Func9
+abort	wulformanager.hh	/^		bool abort;$/;"	m	class:WulforManager
+aboveTag	hub.hh	/^		bool aboveTag;$/;"	m	class:Hub
+aboveURI	privatemessage.hh	/^		bool aboveURI;$/;"	m	class:PrivateMessage
+addAsFavorite_client	hub.cc	/^void Hub::addAsFavorite_client()$/;"	f	class:Hub
+addBookEntry_gui	mainwindow.cc	/^void MainWindow::addBookEntry_gui(BookEntry *entry)$/;"	f	class:MainWindow
+addChild	entry.cc	/^void Entry::addChild(Entry *entry)$/;"	f	class:Entry
+addColumn_gui	treeview.cc	/^void TreeView::addColumn_gui(Column& column)$/;"	f	class:TreeView
+addDir_gui	downloadqueue.cc	/^void DownloadQueue::addDir_gui(const string &path, GtkTreeIter *parent)$/;"	f	class:DownloadQueue
+addEntry_client	favoritehubs.cc	/^void FavoriteHubs::addEntry_client(StringMap params)$/;"	f	class:FavoriteHubs
+addEntry_gui	favoritehubs.cc	/^void FavoriteHubs::addEntry_gui(StringMap params)$/;"	f	class:FavoriteHubs
+addFavUser_client	search.cc	/^void Search::addFavUser_client(string cid)$/;"	f	class:Search
+addFav_client	publichubs.cc	/^void PublicHubs::addFav_client(FavoriteHubEntry entry)$/;"	f	class:PublicHubs
+addFavoriteUser_client	mainwindow.cc	/^void MainWindow::addFavoriteUser_client(string cid)$/;"	f	class:MainWindow
+addFavoriteUser_client	privatemessage.cc	/^void PrivateMessage::addFavoriteUser_client()$/;"	f	class:PrivateMessage
+addFile_gui	downloadqueue.cc	/^void DownloadQueue::addFile_gui(StringMap params, bool updateDirs)$/;"	f	class:DownloadQueue
+addFiles_gui	downloadqueue.cc	/^void DownloadQueue::addFiles_gui(vector<StringMap> files, bool firstUpdate)$/;"	f	class:DownloadQueue
+addHub	UserCommandMenu.cc	/^void UserCommandMenu::addHub(const StringList &hubs2)$/;"	f	class:UserCommandMenu
+addHub	UserCommandMenu.cc	/^void UserCommandMenu::addHub(const string &hub)$/;"	f	class:UserCommandMenu
+addHub_gui	search.cc	/^void Search::addHub_gui(string name, string url, bool op)$/;"	f	class:Search
+addItem_gui	finishedtransfers.cc	/^void FinishedTransfers::addItem_gui(StringMap params, bool update)$/;"	f	class:FinishedTransfers
+addLine_gui	privatemessage.cc	/^void PrivateMessage::addLine_gui(const string &message)$/;"	f	class:PrivateMessage
+addList_client	downloadqueue.cc	/^void DownloadQueue::addList_client(string target, string nick)$/;"	f	class:DownloadQueue
+addMessage_gui	hub.cc	/^void Hub::addMessage_gui(string message)$/;"	f	class:Hub
+addMessage_gui	privatemessage.cc	/^void PrivateMessage::addMessage_gui(string message)$/;"	f	class:PrivateMessage
+addOption_gui	settingsdialog.cc	/^void Settings::addOption_gui(GtkListStore *store, const string &name, SettingsManager::IntSetting setting)$/;"	f	class:Settings
+addPrivateMessage_gui	mainwindow.cc	/^void MainWindow::addPrivateMessage_gui(string cid, string message, bool useSetting)$/;"	f	class:MainWindow
+addResult_gui	search.cc	/^void Search::addResult_gui(SearchResult *result, bool isShared)$/;"	f	class:Search
+addSearch_gui	mainwindow.cc	/^Search *MainWindow::addSearch_gui()$/;"	f	class:MainWindow
+addShare_client	settingsdialog.cc	/^void Settings::addShare_client(string path, string name)$/;"	f	class:Settings
+addShare_gui	settingsdialog.cc	/^void Settings::addShare_gui(string path, string name, string error)$/;"	f	class:Settings
+addSource_client	search.cc	/^void Search::addSource_client(string source, SearchResult *result)$/;"	f	class:Search
+addStatusMessage_gui	hub.cc	/^void Hub::addStatusMessage_gui(string message)$/;"	f	class:Hub
+addStatusMessage_gui	privatemessage.cc	/^void PrivateMessage::addStatusMessage_gui(string message)$/;"	f	class:PrivateMessage
+addTabMenuItem_gui	mainwindow.cc	/^void MainWindow::addTabMenuItem_gui(GtkWidget* menuItem, GtkWidget* page)$/;"	f	class:MainWindow
+addUser	UserCommandMenu.cc	/^void UserCommandMenu::addUser(const string &cid)$/;"	f	class:UserCommandMenu
+address	hub.hh	/^		std::string address;$/;"	m	class:Hub
+advancedStore	settingsdialog.hh	/^			*windowStore2, *windowStore3, *advancedStore, *certificatesStore, *userCommandStore;$/;"	m	class:Settings
+advancedView	settingsdialog.hh	/^			windowView3, advancedView, certificatesView, userCommandView;$/;"	m	class:Settings
+appearanceStore	settingsdialog.hh	/^			*shareStore, *appearanceStore, *colorStore, *windowStore1,$/;"	m	class:Settings
+appearanceView	settingsdialog.hh	/^			appearanceView, colorView, windowView1, windowView2,$/;"	m	class:Settings
+applyTags_gui	hub.cc	/^void Hub::applyTags_gui(const string &line)$/;"	f	class:Hub
+autoConnect_client	mainwindow.cc	/^void MainWindow::autoConnect_client()$/;"	f	class:MainWindow
+autoOpen_gui	mainwindow.cc	/^void MainWindow::autoOpen_gui()$/;"	f	class:MainWindow
+badSources	downloadqueue.hh	/^		hash_map<std::string, std::map<std::string, std::string> > badSources;$/;"	m	class:DownloadQueue
+bold	bookentry.hh	/^		bool bold;$/;"	m	class:BookEntry
+buffer	privatemessage.hh	/^		GtkTextBuffer *buffer;$/;"	m	class:PrivateMessage
+buildDirs_gui	sharebrowser.cc	/^void ShareBrowser::buildDirs_gui(DirectoryListing::Directory *dir, GtkTreeIter *iter)$/;"	f	class:ShareBrowser
+buildDynamicMenu_gui	downloadqueue.cc	/^void DownloadQueue::buildDynamicMenu_gui()$/;"	f	class:DownloadQueue
+buildHubList_gui	publichubs.cc	/^void PublicHubs::buildHubList_gui()$/;"	f	class:PublicHubs
+buildList_client	downloadqueue.cc	/^void DownloadQueue::buildList_client()$/;"	f	class:DownloadQueue
+buildList_gui	sharebrowser.cc	/^void ShareBrowser::buildList_gui()$/;"	f	class:ShareBrowser
+buildMenu_gui	UserCommandMenu.cc	/^void UserCommandMenu::buildMenu_gui()$/;"	f	class:UserCommandMenu
+byteDataFunc	treeview.cc	/^void TreeView::byteDataFunc(GtkTreeViewColumn *col, GtkCellRenderer *renderer, GtkTreeModel *model, GtkTreeIter *iter, gpointer column)$/;"	f	class:TreeView
+call	func.hh	/^		void call() {$/;"	f	class:Func0
+call	func.hh	/^		void call() {$/;"	f	class:Func1
+call	func.hh	/^		void call() {$/;"	f	class:Func2
+call	func.hh	/^		void call() {$/;"	f	class:Func3
+call	func.hh	/^		void call() {$/;"	f	class:Func4
+call	func.hh	/^		void call() {$/;"	f	class:Func5
+call	func.hh	/^		void call() {$/;"	f	class:Func6
+call	func.hh	/^		void call() {$/;"	f	class:Func7
+call	func.hh	/^		void call() {$/;"	f	class:Func8
+call	func.hh	/^		void call() {$/;"	f	class:Func9
+callBack	wulfor.cc	/^void callBack(void* x, const std::string& a)$/;"	f
+certificatesStore	settingsdialog.hh	/^			*windowStore2, *windowStore3, *advancedStore, *certificatesStore, *userCommandStore;$/;"	m	class:Settings
+certificatesView	settingsdialog.hh	/^			windowView3, advancedView, certificatesView, userCommandView;$/;"	m	class:Settings
+charsets	WulforUtil.cc	/^std::vector<std::string> WulforUtil::charsets;$/;"	m	class:WulforUtil	file:
+charsets	WulforUtil.hh	/^		static std::vector<std::string> charsets;$/;"	m	class:WulforUtil
+chatBuffer	hub.hh	/^		GtkTextBuffer *chatBuffer;$/;"	m	class:Hub
+chatMark	hub.hh	/^		GtkTextMark *chatMark;$/;"	m	class:Hub
+checkFavoriteUserJoin_client	hub.cc	/^void Hub::checkFavoriteUserJoin_client(string cid)$/;"	f	class:Hub
+children	entry.hh	/^		std::map<std::string, Entry *> children;$/;"	m	class:Entry
+cid	privatemessage.hh	/^		std::string cid;$/;"	m	class:PrivateMessage
+cleanMenu_gui	UserCommandMenu.cc	/^void UserCommandMenu::cleanMenu_gui()$/;"	f	class:UserCommandMenu
+clearList_gui	search.cc	/^void Search::clearList_gui()$/;"	f	class:Search
+clearNickList_gui	hub.cc	/^void Hub::clearNickList_gui()$/;"	f	class:Hub
+client	hub.hh	/^		Client *client;$/;"	m	class:Hub
+clientCallMutex	wulformanager.hh	/^		GMutex *clientCallMutex;$/;"	m	class:WulforManager
+clientCond	wulformanager.hh	/^		GCond *clientCond;$/;"	m	class:WulforManager
+clientCondMutex	wulformanager.hh	/^		GMutex *clientCondMutex;$/;"	m	class:WulforManager
+clientCondValue	wulformanager.hh	/^		gint clientCondValue;$/;"	m	class:WulforManager
+clientFuncs	wulformanager.hh	/^		std::vector<FuncBase *> clientFuncs;$/;"	m	class:WulforManager
+clientQueueMutex	wulformanager.hh	/^		GMutex *clientQueueMutex;$/;"	m	class:WulforManager
+clientThread	wulformanager.hh	/^		GThread *clientThread;$/;"	m	class:WulforManager
+closeButton	bookentry.hh	/^		GtkWidget *closeButton;$/;"	m	class:BookEntry
+closeConnection_client	mainwindow.cc	/^void MainWindow::closeConnection_client(string cid, bool download)$/;"	f	class:MainWindow
+col	treeview.cc	/^int TreeView::col(const string &title)$/;"	f	class:TreeView
+colMenuItems	treeview.hh	/^		std::map<std::string, GtkWidget*> colMenuItems;$/;"	m	class:TreeView
+colorStore	settingsdialog.hh	/^			*shareStore, *appearanceStore, *colorStore, *windowStore1,$/;"	m	class:Settings
+colorView	settingsdialog.hh	/^			appearanceView, colorView, windowView1, windowView2,$/;"	m	class:Settings
+columnType	treeview.hh	/^		} columnType;$/;"	t	class:TreeView	typeref:enum:TreeView::__anon3
+columns	treeview.hh	/^		ColMap columns;$/;"	m	class:TreeView
+completionKey	hub.hh	/^		std::string completionKey;$/;"	m	class:Hub
+configFile	settingsmanager.hh	/^		std::string configFile;$/;"	m	class:WulforSettingsManager
+connectClient_client	hub.cc	/^void Hub::connectClient_client(string address, string encoding)$/;"	f	class:Hub
+connectionSpeedComboBox	settingsdialog.hh	/^		GtkComboBox *connectionSpeedComboBox;$/;"	m	class:Settings
+copyRow_gui	search.cc	/^GtkTreeIter Search::copyRow_gui(GtkTreeIter *fromIter, GtkTreeIter *parent \/* = NULL *\/, int position \/* = -1 *\/)$/;"	f	class:Search
+copyValue_gui	search.cc	/^void Search::copyValue_gui(GtkTreeIter *fromIter, GtkTreeIter *toIter, const string &column)$/;"	f	class:Search
+copyValue_gui	search.cc	/^void Search::copyValue_gui(GtkTreeIter *fromIter, GtkTreeIter *toIter, int position)$/;"	f	class:Search
+count	treeview.hh	/^		int count;$/;"	m	class:TreeView
+createFinishedDownloads	finishedtransfers.cc	/^FinishedTransfers* FinishedTransfers::createFinishedDownloads()$/;"	f	class:FinishedTransfers
+createFinishedUploads	finishedtransfers.cc	/^FinishedTransfers* FinishedTransfers::createFinishedUploads()$/;"	f	class:FinishedTransfers
+createMainWindow	wulformanager.cc	/^void WulforManager::createMainWindow()$/;"	f	class:WulforManager
+createStatusIcon_gui	mainwindow.cc	/^void MainWindow::createStatusIcon_gui()$/;"	f	class:MainWindow
+createSubMenu_gui	UserCommandMenu.cc	/^void UserCommandMenu::createSubMenu_gui(GtkWidget *&menu, std::string &command)$/;"	f	class:UserCommandMenu
+ctx	UserCommandMenu.hh	/^		int ctx;$/;"	m	class:UserCommandMenu
+currentDir	downloadqueue.hh	/^		std::string currentDir;$/;"	m	class:DownloadQueue
+currentItems	downloadqueue.hh	/^		int currentItems;$/;"	m	class:DownloadQueue
+currentItems	sharebrowser.hh	/^		int currentItems;$/;"	m	class:ShareBrowser
+currentPage_gui	mainwindow.cc	/^GtkWidget *MainWindow::currentPage_gui()$/;"	f	class:MainWindow
+currentSize	downloadqueue.hh	/^		int64_t currentSize;$/;"	m	class:DownloadQueue
+currentSize	sharebrowser.hh	/^		int64_t currentSize;$/;"	m	class:ShareBrowser
+defaultInt	settingsmanager.hh	/^		std::map<std::string, int> defaultInt;$/;"	m	class:WulforSettingsManager
+defaultString	settingsmanager.hh	/^		std::map<std::string, std::string> defaultString;$/;"	m	class:WulforSettingsManager
+deleteEntry_gui	wulformanager.cc	/^void WulforManager::deleteEntry_gui(Entry *entry)$/;"	f	class:WulforManager
+deleteMainWindow	wulformanager.cc	/^void WulforManager::deleteMainWindow()$/;"	f	class:WulforManager
+dirPrevious	downloadqueue.hh	/^		GdkEventType dirPrevious;$/;"	m	class:DownloadQueue
+dirSelection	downloadqueue.hh	/^		GtkTreeSelection *dirSelection;$/;"	m	class:DownloadQueue
+dirSelection	sharebrowser.hh	/^		GtkTreeSelection *fileSelection, *dirSelection;$/;"	m	class:ShareBrowser
+dirStore	downloadqueue.hh	/^		GtkTreeStore *dirStore;$/;"	m	class:DownloadQueue
+dirStore	sharebrowser.hh	/^		GtkTreeStore *dirStore;$/;"	m	class:ShareBrowser
+dirUserCommandMenu	sharebrowser.hh	/^		UserCommandMenu *dirUserCommandMenu;$/;"	m	class:ShareBrowser
+dirView	downloadqueue.hh	/^		TreeView dirView;$/;"	m	class:DownloadQueue
+dirView	sharebrowser.hh	/^		TreeView dirView, fileView;$/;"	m	class:ShareBrowser
+disconnect_client	hub.cc	/^void Hub::disconnect_client()$/;"	f	class:Hub
+dispatchClientFunc	wulformanager.cc	/^void WulforManager::dispatchClientFunc(FuncBase *func)$/;"	f	class:WulforManager
+dispatchGuiFunc	wulformanager.cc	/^void WulforManager::dispatchGuiFunc(FuncBase *func)$/;"	f	class:WulforManager
+downloadDir_client	search.cc	/^void Search::downloadDir_client(string target, SearchResult *result)$/;"	f	class:Search
+downloadDir_client	sharebrowser.cc	/^void ShareBrowser::downloadDir_client(DirectoryListing::Directory *dir, string target)$/;"	f	class:ShareBrowser
+downloadFile_client	sharebrowser.cc	/^void ShareBrowser::downloadFile_client(DirectoryListing::File *file, string target)$/;"	f	class:ShareBrowser
+downloadList_client	publichubs.cc	/^void PublicHubs::downloadList_client()$/;"	f	class:PublicHubs
+downloadPic	mainwindow.hh	/^		GdkPixbuf *uploadPic, *downloadPic;$/;"	m	class:MainWindow
+downloadSelectedDirs_gui	sharebrowser.cc	/^void ShareBrowser::downloadSelectedDirs_gui(const string &target)$/;"	f	class:ShareBrowser
+downloadSelectedFiles_gui	sharebrowser.cc	/^void ShareBrowser::downloadSelectedFiles_gui(const string &target)$/;"	f	class:ShareBrowser
+downloadToStore	settingsdialog.hh	/^		GtkListStore *downloadToStore, *publicListStore, *queueStore,$/;"	m	class:Settings
+downloadToView	settingsdialog.hh	/^		TreeView downloadToView, publicListView, queueView, shareView,$/;"	m	class:Settings
+download_client	search.cc	/^void Search::download_client(string target, SearchResult *result)$/;"	f	class:Search
+droppedResult	search.hh	/^		int droppedResult;$/;"	m	class:Search
+editEntry_client	favoritehubs.cc	/^void FavoriteHubs::editEntry_client(string address, StringMap params)$/;"	f	class:FavoriteHubs
+editEntry_gui	favoritehubs.cc	/^void FavoriteHubs::editEntry_gui(StringMap &params, GtkTreeIter *iter)$/;"	f	class:FavoriteHubs
+emptyStatusWidth	mainwindow.hh	/^		int emptyStatusWidth;$/;"	m	class:MainWindow
+encoding	hub.hh	/^		std::string encoding;$/;"	m	class:Hub
+entries	wulformanager.hh	/^		hash_map<std::string, Entry *> entries;$/;"	m	class:WulforManager
+entryMutex	wulformanager.hh	/^		GStaticRWLock entryMutex;$/;"	m	class:WulforManager
+eventBox	bookentry.hh	/^		GtkWidget *eventBox;$/;"	m	class:BookEntry
+favoriteSelection	favoritehubs.hh	/^		GtkTreeSelection *favoriteSelection;$/;"	m	class:FavoriteHubs
+favoriteStore	favoritehubs.hh	/^		GtkListStore *favoriteStore;$/;"	m	class:FavoriteHubs
+favoriteView	favoritehubs.hh	/^		TreeView favoriteView;$/;"	m	class:FavoriteHubs
+file	sharebrowser.hh	/^		std::string file;$/;"	m	class:ShareBrowser
+fileSelection	downloadqueue.hh	/^		GtkTreeSelection *fileSelection;$/;"	m	class:DownloadQueue
+fileSelection	sharebrowser.hh	/^		GtkTreeSelection *fileSelection, *dirSelection;$/;"	m	class:ShareBrowser
+fileStore	downloadqueue.hh	/^		GtkListStore *fileStore;$/;"	m	class:DownloadQueue
+fileStore	sharebrowser.hh	/^		GtkListStore *fileStore;$/;"	m	class:ShareBrowser
+fileUserCommandMenu	sharebrowser.hh	/^		UserCommandMenu *fileUserCommandMenu;$/;"	m	class:ShareBrowser
+fileView	downloadqueue.hh	/^		TreeView fileView;$/;"	m	class:DownloadQueue
+fileView	sharebrowser.hh	/^		TreeView dirView, fileView;$/;"	m	class:ShareBrowser
+fileViewSelected_gui	sharebrowser.cc	/^void ShareBrowser::fileViewSelected_gui()$/;"	f	class:ShareBrowser
+filter	publichubs.hh	/^		StringSearch filter;$/;"	m	class:PublicHubs
+finalize	treeview.cc	/^void TreeView::finalize()$/;"	f	class:TreeView
+findBookEntry	mainwindow.cc	/^BookEntry* MainWindow::findBookEntry(const EntryType type, const string &id)$/;"	f	class:MainWindow
+findDir_gui	sharebrowser.cc	/^bool ShareBrowser::findDir_gui(const string &dir, GtkTreeIter *parent)$/;"	f	class:ShareBrowser
+findTransfer_gui	mainwindow.cc	/^bool MainWindow::findTransfer_gui(const string &cid, bool download, GtkTreeIter *iter)$/;"	f	class:MainWindow
+findUser_gui	hub.cc	/^bool Hub::findUser_gui(const string &nick, GtkTreeIter *iter)$/;"	f	class:Hub
+find_gui	sharebrowser.cc	/^void ShareBrowser::find_gui()$/;"	f	class:ShareBrowser
+forceAttempt_client	mainwindow.cc	/^void MainWindow::forceAttempt_client(string cid)$/;"	f	class:MainWindow
+func	func.hh	/^		void (c::*func)();$/;"	m	class:Func0
+func	func.hh	/^		void (c::*func)(p1);$/;"	m	class:Func1
+func	func.hh	/^		void (c::*func)(p1, p2);$/;"	m	class:Func2
+func	func.hh	/^		void (c::*func)(p1, p2, p3);$/;"	m	class:Func3
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4);$/;"	m	class:Func4
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4, p5);$/;"	m	class:Func5
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4, p5, p6);$/;"	m	class:Func6
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4, p5, p6, p7);$/;"	m	class:Func7
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4, p5, p6, p7, p8);$/;"	m	class:Func8
+func	func.hh	/^		void (c::*func)(p1, p2, p3, p4, p5, p6, p7, p8, p9);$/;"	m	class:Func9
+generateCertificates_client	settingsdialog.cc	/^void Settings::generateCertificates_client()$/;"	f	class:Settings
+generateID	entry.cc	/^string Entry::generateID()$/;"	f	class:Entry
+get	treeview.cc	/^GtkTreeView *TreeView::get()$/;"	f	class:TreeView
+get	wulformanager.cc	/^WulforManager *WulforManager::get()$/;"	f	class:WulforManager
+getCharsets	WulforUtil.cc	/^vector<string>& WulforUtil::getCharsets()$/;"	f	class:WulforUtil
+getChild	entry.cc	/^Entry *Entry::getChild(const EntryType childType, const string &childId)$/;"	f	class:Entry
+getCloseButton	bookentry.hh	/^		GtkWidget *getCloseButton() { return closeButton; }$/;"	f	class:BookEntry
+getColCount	treeview.cc	/^int TreeView::getColCount()$/;"	f	class:TreeView
+getContainer	UserCommandMenu.hh	/^		GtkWidget *getContainer() { return userCommandMenu; }$/;"	f	class:UserCommandMenu
+getContainer	bookentry.cc	/^GtkWidget* BookEntry::getContainer()$/;"	f	class:BookEntry
+getContainer	dialogentry.cc	/^GtkWidget* DialogEntry::getContainer()$/;"	f	class:DialogEntry
+getContainer	mainwindow.cc	/^GtkWidget *MainWindow::getContainer()$/;"	f	class:MainWindow
+getDialogEntry_gui	wulformanager.cc	/^DialogEntry* WulforManager::getDialogEntry_gui(const string &id)$/;"	f	class:WulforManager
+getFavHubParams_client	favoritehubs.cc	/^void FavoriteHubs::getFavHubParams_client(const FavoriteHubEntry *entry, StringMap &params)$/;"	f	class:FavoriteHubs
+getFileList_client	hub.cc	/^void Hub::getFileList_client(string cid, bool match)$/;"	f	class:Hub
+getFileList_client	mainwindow.cc	/^void MainWindow::getFileList_client(string cid)$/;"	f	class:MainWindow
+getFileList_client	privatemessage.cc	/^void PrivateMessage::getFileList_client()$/;"	f	class:PrivateMessage
+getFileList_client	search.cc	/^void Search::getFileList_client(string cid, string dir, bool match)$/;"	f	class:Search
+getFinishedParams_client	finishedtransfers.cc	/^void FinishedTransfers::getFinishedParams_client(FinishedItem *item, StringMap &params)$/;"	f	class:FinishedTransfers
+getGTypes	treeview.cc	/^GType* TreeView::getGTypes()$/;"	f	class:TreeView
+getGroupingColumn	search.cc	/^std::string Search::getGroupingColumn(GroupType groupBy)$/;"	f	class:Search
+getHubAddress	WulforUtil.cc	/^StringList WulforUtil::getHubAddress(const CID& cid)$/;"	f	class:WulforUtil
+getHubAddress	WulforUtil.cc	/^StringList WulforUtil::getHubAddress(const User::Ptr& user)$/;"	f	class:WulforUtil
+getHubNames	WulforUtil.cc	/^string WulforUtil::getHubNames(const CID& cid)$/;"	f	class:WulforUtil
+getHubNames	WulforUtil.cc	/^string WulforUtil::getHubNames(const User::Ptr& user)$/;"	f	class:WulforUtil
+getHubNames	WulforUtil.cc	/^string WulforUtil::getHubNames(const string &cid)$/;"	f	class:WulforUtil
+getID	entry.cc	/^const string& Entry::getID()$/;"	f	class:Entry
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func0
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func1
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func2
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func3
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func4
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func5
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func6
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func7
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func8
+getID	func.hh	/^		const std::string& getID()$/;"	f	class:Func9
+getInt	settingsmanager.cc	/^int WulforSettingsManager::getInt(const string &key)$/;"	f	class:WulforSettingsManager
+getLabelBox	bookentry.hh	/^		GtkWidget *getLabelBox() { return labelBox; }$/;"	f	class:BookEntry
+getLabelText	bookentry.cc	/^const string& BookEntry::getLabelText()$/;"	f	class:BookEntry
+getLocalIPs	WulforUtil.cc	/^vector<string> WulforUtil::getLocalIPs()$/;"	f	class:WulforUtil
+getMainWindow	wulformanager.cc	/^MainWindow *WulforManager::getMainWindow()$/;"	f	class:WulforManager
+getNextIter_gui	search.cc	/^gboolean Search::getNextIter_gui(GtkTreeModel *model, GtkTreeIter *iter, bool children \/* = TRUE *\/, bool parent \/* = TRUE *\/)$/;"	f	class:Search
+getNicks	WulforUtil.cc	/^string WulforUtil::getNicks(const CID& cid)$/;"	f	class:WulforUtil
+getNicks	WulforUtil.cc	/^string WulforUtil::getNicks(const User::Ptr& user)$/;"	f	class:WulforUtil
+getNicks	WulforUtil.cc	/^string WulforUtil::getNicks(const string &cid)$/;"	f	class:WulforUtil
+getParams_client	hub.cc	/^void Hub::getParams_client(ParamMap &params, Identity &id)$/;"	f	class:Hub
+getPassword_gui	hub.cc	/^void Hub::getPassword_gui()$/;"	f	class:Hub
+getPath	wulformanager.cc	/^string WulforManager::getPath()$/;"	f	class:WulforManager
+getQueueParams_client	downloadqueue.cc	/^void DownloadQueue::getQueueParams_client(QueueItem *item, StringMap &params)$/;"	f	class:DownloadQueue
+getResponseID	dialogentry.cc	/^gint DialogEntry::getResponseID()$/;"	f	class:DialogEntry
+getRowCount	treeview.cc	/^int TreeView::getRowCount()$/;"	f	class:TreeView
+getString	settingsmanager.cc	/^string WulforSettingsManager::getString(const string &key)$/;"	f	class:WulforSettingsManager
+getString	treeview.cc	/^string TreeView::getString(GtkTreeIter *i, const string &column, GtkTreeModel *m)$/;"	f	class:TreeView
+getTabMenuItem	bookentry.hh	/^		GtkWidget *getTabMenuItem() { return tabMenuItem; }$/;"	f	class:BookEntry
+getTextFromMenu	WulforUtil.cc	/^string WulforUtil::getTextFromMenu(GtkMenuItem *item)$/;"	f	class:WulforUtil
+getType	entry.cc	/^const Entry::EntryType Entry::getType()$/;"	f	class:Entry
+getUserCommandLines_gui	mainwindow.cc	/^bool MainWindow::getUserCommandLines_gui(const string &command, StringMap &ucParams)$/;"	f	class:MainWindow
+getValue	treeview.hh	/^		C getValue(GtkTreeIter *i, const std::string &column, GtkTreeModel *m = NULL)$/;"	f	class:TreeView
+getValue	treeview.hh	/^		T getValue(GtkTreeIter *i, const std::string &column, GtkTreeModel *m = NULL)$/;"	f	class:TreeView
+getWidget	entry.cc	/^GtkWidget *Entry::getWidget(const string &name)$/;"	f	class:Entry
+grantExtraSlot_client	mainwindow.cc	/^void MainWindow::grantExtraSlot_client(string cid)$/;"	f	class:MainWindow
+grantSlot_client	hub.cc	/^void Hub::grantSlot_client(string cid)$/;"	f	class:Hub
+grantSlot_client	privatemessage.cc	/^void PrivateMessage::grantSlot_client()$/;"	f	class:PrivateMessage
+grantSlot_client	search.cc	/^void Search::grantSlot_client(string cid)$/;"	f	class:Search
+group	bookentry.hh	/^		static GSList *group;$/;"	m	class:BookEntry
+gtype	treeview.hh	/^				GType gtype;$/;"	m	class:TreeView::Column
+gtypes	treeview.hh	/^		GType *gtypes;$/;"	m	class:TreeView
+guiCond	wulformanager.hh	/^		GCond *guiCond;$/;"	m	class:WulforManager
+guiCondMutex	wulformanager.hh	/^		GMutex *guiCondMutex;$/;"	m	class:WulforManager
+guiCondValue	wulformanager.hh	/^		gint guiCondValue;$/;"	m	class:WulforManager
+guiFuncs	wulformanager.hh	/^		std::vector<FuncBase *> guiFuncs;$/;"	m	class:WulforManager
+guiQueueMutex	wulformanager.hh	/^		GMutex *guiQueueMutex;$/;"	m	class:WulforManager
+guiThread	wulformanager.hh	/^		GThread *guiThread;$/;"	m	class:WulforManager
+handCursor	hub.hh	/^		GdkCursor *handCursor;$/;"	m	class:Hub
+handCursor	privatemessage.hh	/^		GdkCursor* handCursor;$/;"	m	class:PrivateMessage
+hiddenColumns	treeview.hh	/^		ColMap hiddenColumns;$/;"	m	class:TreeView
+history	hub.hh	/^		std::vector<std::string> history;$/;"	m	class:Hub
+history	privatemessage.hh	/^		std::vector<std::string> history;$/;"	m	class:PrivateMessage
+historyIndex	hub.hh	/^		int historyIndex;$/;"	m	class:Hub
+historyIndex	privatemessage.hh	/^		int historyIndex;$/;"	m	class:PrivateMessage
+hubSelection	publichubs.hh	/^		GtkTreeSelection *hubSelection, *listsSelection;$/;"	m	class:PublicHubs
+hubStore	publichubs.hh	/^		GtkListStore *hubStore, *listsStore;$/;"	m	class:PublicHubs
+hubStore	search.hh	/^		GtkListStore *hubStore;$/;"	m	class:Search
+hubView	publichubs.hh	/^		TreeView listsView, hubView;$/;"	m	class:PublicHubs
+hubView	search.hh	/^		TreeView hubView, resultView;$/;"	m	class:Search
+hubs	UserCommandMenu.hh	/^		StringList hubs;$/;"	m	class:UserCommandMenu
+hubs	publichubs.hh	/^		HubEntry::List hubs;$/;"	m	class:PublicHubs
+iconDirectory	search.hh	/^		GdkPixbuf *iconDirectory;$/;"	m	class:Search
+iconDirectory	sharebrowser.hh	/^		GdkPixbuf *iconFile, *iconDirectory;$/;"	m	class:ShareBrowser
+iconFile	search.hh	/^		GdkPixbuf *iconFile;$/;"	m	class:Search
+iconFile	sharebrowser.hh	/^		GdkPixbuf *iconFile, *iconDirectory;$/;"	m	class:ShareBrowser
+iconGroup	search.hh	/^		GdkPixbuf *iconGroup;$/;"	m	class:Search
+id	entry.hh	/^		std::string id;$/;"	m	class:Entry
+id	treeview.hh	/^				int id;$/;"	m	class:TreeView::Column
+initAdvanced_gui	settingsdialog.cc	/^void Settings::initAdvanced_gui()$/;"	f	class:Settings
+initAppearance_gui	settingsdialog.cc	/^void Settings::initAppearance_gui()$/;"	f	class:Settings
+initConnection_gui	settingsdialog.cc	/^void Settings::initConnection_gui()$/;"	f	class:Settings
+initDownloads_gui	settingsdialog.cc	/^void Settings::initDownloads_gui()$/;"	f	class:Settings
+initHubs_gui	search.cc	/^void Search::initHubs_gui()$/;"	f	class:Search
+initLog_gui	settingsdialog.cc	/^void Settings::initLog_gui()$/;"	f	class:Settings
+initPersonal_gui	settingsdialog.cc	/^void Settings::initPersonal_gui()$/;"	f	class:Settings
+initSharing_gui	settingsdialog.cc	/^void Settings::initSharing_gui()$/;"	f	class:Settings
+initialDirectory	sharebrowser.hh	/^		std::string initialDirectory;$/;"	m	class:ShareBrowser
+initializeList_client	favoritehubs.cc	/^void FavoriteHubs::initializeList_client()$/;"	f	class:FavoriteHubs
+initializeList_client	finishedtransfers.cc	/^void FinishedTransfers::initializeList_client()$/;"	f	class:FinishedTransfers
+insertColumn	treeview.cc	/^void TreeView::insertColumn(const string &title, const GType &gtype, const columnType type, const int width, const string &linkedCol)$/;"	f	class:TreeView
+insertEntry_gui	wulformanager.cc	/^void WulforManager::insertEntry_gui(Entry *entry)$/;"	f	class:WulforManager
+insertHiddenColumn	treeview.cc	/^void TreeView::insertHiddenColumn(const string &title, const GType &gtype)$/;"	f	class:TreeView
+intMap	settingsmanager.hh	/^		std::map<std::string, int> intMap;$/;"	m	class:WulforSettingsManager
+isActive_gui	bookentry.cc	/^bool BookEntry::isActive_gui()$/;"	f	class:BookEntry
+isActive_gui	mainwindow.cc	/^bool MainWindow::isActive_gui()$/;"	f	class:MainWindow
+isBot	privatemessage.hh	/^		bool isBot;$/;"	m	class:PrivateMessage
+isHash	search.hh	/^		bool isHash;$/;"	m	class:Search
+isHubURL	WulforUtil.cc	/^bool WulforUtil::isHubURL(const string &text)$/;"	f	class:WulforUtil
+isLink	WulforUtil.cc	/^bool WulforUtil::isLink(const string &text)$/;"	f	class:WulforUtil
+isMagnet	WulforUtil.cc	/^bool WulforUtil::isMagnet(const string &text)$/;"	f	class:WulforUtil
+isUpload	finishedtransfers.hh	/^		bool isUpload;$/;"	m	class:FinishedTransfers
+items	finishedtransfers.hh	/^		int items;$/;"	m	class:FinishedTransfers
+label	bookentry.hh	/^		GtkLabel *label;$/;"	m	class:BookEntry
+labelBox	bookentry.hh	/^		GtkWidget *labelBox;$/;"	m	class:BookEntry
+labelSize	bookentry.hh	/^		static const glong labelSize = 20; \/\/\/@todo: make a preference?$/;"	m	class:BookEntry
+labelText	bookentry.hh	/^		std::string labelText;$/;"	m	class:BookEntry
+lastDown	mainwindow.hh	/^		int64_t lastUpdate, lastUp, lastDown;$/;"	m	class:MainWindow
+lastUp	mainwindow.hh	/^		int64_t lastUpdate, lastUp, lastDown;$/;"	m	class:MainWindow
+lastUpdate	mainwindow.hh	/^		int64_t lastUpdate, lastUp, lastDown;$/;"	m	class:MainWindow
+linkedCol	treeview.hh	/^				std::string linkedCol;$/;"	m	class:TreeView::Column
+linuxSeparator	WulforUtil.cc	/^string WulforUtil::linuxSeparator(const string &ps)$/;"	f	class:WulforUtil
+listing	sharebrowser.hh	/^		DirectoryListing listing;$/;"	m	class:ShareBrowser
+listsSelection	publichubs.hh	/^		GtkTreeSelection *hubSelection, *listsSelection;$/;"	m	class:PublicHubs
+listsStore	publichubs.hh	/^		GtkListStore *hubStore, *listsStore;$/;"	m	class:PublicHubs
+listsView	publichubs.hh	/^		TreeView listsView, hubView;$/;"	m	class:PublicHubs
+load	settingsmanager.cc	/^void WulforSettingsManager::load()$/;"	f	class:WulforSettingsManager
+loadUserCommands_gui	settingsdialog.cc	/^void Settings::loadUserCommands_gui()$/;"	f	class:Settings
+magnetSignature	WulforUtil.cc	/^const std::string WulforUtil::magnetSignature = "magnet:?xt=urn:tree:tiger:";$/;"	m	class:WulforUtil	file:
+magnetSignature	WulforUtil.hh	/^		static const std::string magnetSignature;$/;"	m	class:WulforUtil
+main	wulfor.cc	/^int main(int argc, char *argv[])$/;"	f
+mainWin	wulformanager.hh	/^		MainWindow *mainWin;$/;"	m	class:WulforManager
+makeMagnet	WulforUtil.cc	/^string WulforUtil::makeMagnet(const string &name, const int64_t size, const string &tth)$/;"	f	class:WulforUtil
+manager	wulformanager.hh	/^		static WulforManager *manager;$/;"	m	class:WulforManager
+mark	privatemessage.hh	/^		GtkTextMark *mark;$/;"	m	class:PrivateMessage
+matchQueue_client	mainwindow.cc	/^void MainWindow::matchQueue_client(string cid)$/;"	f	class:MainWindow
+matchQueue_client	sharebrowser.cc	/^void ShareBrowser::matchQueue_client()$/;"	f	class:ShareBrowser
+maxHistory	hub.hh	/^		static const int maxHistory = 20;$/;"	m	class:Hub
+maxHistory	privatemessage.hh	/^		static const int maxHistory = 20;$/;"	m	class:PrivateMessage
+maxLines	hub.hh	/^		static const int maxLines = 1000;$/;"	m	class:Hub
+maxLines	privatemessage.hh	/^		static const int maxLines = 500; \/\/\/@todo: make these preferences$/;"	m	class:PrivateMessage
+menu	treeview.hh	/^		GtkMenu *menu;$/;"	m	class:TreeView
+minimized	mainwindow.hh	/^		bool minimized;$/;"	m	class:MainWindow
+modifyHub_gui	search.cc	/^void Search::modifyHub_gui(string name, string url, bool op)$/;"	f	class:Search
+moveDir_client	downloadqueue.cc	/^void DownloadQueue::moveDir_client(string source, string target)$/;"	f	class:DownloadQueue
+moveUserCommand_client	settingsdialog.cc	/^void Settings::moveUserCommand_client(std::string name, int pos)$/;"	f	class:Settings
+move_client	downloadqueue.cc	/^void DownloadQueue::move_client(string source, string target)$/;"	f	class:DownloadQueue
+name	treeview.hh	/^		std::string name; \/\/ Used to save settings$/;"	m	class:TreeView
+nextTab_gui	mainwindow.cc	/^void MainWindow::nextTab_gui()$/;"	f	class:MainWindow
+nickSelection	hub.hh	/^		GtkTreeSelection *nickSelection;$/;"	m	class:Hub
+nickStore	hub.hh	/^		GtkListStore *nickStore;$/;"	m	class:Hub
+nickView	hub.hh	/^		TreeView nickView;$/;"	m	class:Hub
+obj	func.hh	/^		c *obj;$/;"	m	class:Func0
+obj	func.hh	/^		c *obj;$/;"	m	class:Func1
+obj	func.hh	/^		c *obj;$/;"	m	class:Func2
+obj	func.hh	/^		c *obj;$/;"	m	class:Func3
+obj	func.hh	/^		c *obj;$/;"	m	class:Func4
+obj	func.hh	/^		c *obj;$/;"	m	class:Func5
+obj	func.hh	/^		c *obj;$/;"	m	class:Func6
+obj	func.hh	/^		c *obj;$/;"	m	class:Func7
+obj	func.hh	/^		c *obj;$/;"	m	class:Func8
+obj	func.hh	/^		c *obj;$/;"	m	class:Func9
+oldButton	publichubs.hh	/^		guint oldButton, oldType;$/;"	m	class:PublicHubs
+oldEventType	search.hh	/^		GdkEventType oldEventType;$/;"	m	class:Search
+oldType	hub.hh	/^		gint oldType;$/;"	m	class:Hub
+oldType	publichubs.hh	/^		guint oldButton, oldType;$/;"	m	class:PublicHubs
+oldType	sharebrowser.hh	/^		GdkEventType oldType;$/;"	m	class:ShareBrowser
+on	downloadqueue.cc	/^void DownloadQueue::on(QueueManagerListener::Added, QueueItem *item) throw()$/;"	f	class:DownloadQueue
+on	downloadqueue.cc	/^void DownloadQueue::on(QueueManagerListener::Moved, QueueItem *item, const string &oldTarget) throw()$/;"	f	class:DownloadQueue
+on	downloadqueue.cc	/^void DownloadQueue::on(QueueManagerListener::Removed, QueueItem *item) throw()$/;"	f	class:DownloadQueue
+on	downloadqueue.cc	/^void DownloadQueue::on(QueueManagerListener::SourcesUpdated, QueueItem *item) throw()$/;"	f	class:DownloadQueue
+on	downloadqueue.cc	/^void DownloadQueue::on(QueueManagerListener::StatusUpdated, QueueItem *item) throw()$/;"	f	class:DownloadQueue
+on	favoritehubs.cc	/^void FavoriteHubs::on(FavoriteManagerListener::FavoriteAdded, const FavoriteHubEntry *entry) throw()$/;"	f	class:FavoriteHubs
+on	favoritehubs.cc	/^void FavoriteHubs::on(FavoriteManagerListener::FavoriteRemoved, const FavoriteHubEntry *entry) throw()$/;"	f	class:FavoriteHubs
+on	finishedtransfers.cc	/^void FinishedTransfers::on(FinishedManagerListener::AddedDl, FinishedItem *item) throw()$/;"	f	class:FinishedTransfers
+on	finishedtransfers.cc	/^void FinishedTransfers::on(FinishedManagerListener::AddedUl, FinishedItem *item) throw()$/;"	f	class:FinishedTransfers
+on	finishedtransfers.cc	/^void FinishedTransfers::on(FinishedManagerListener::RemovedDl, FinishedItem *item) throw()$/;"	f	class:FinishedTransfers
+on	finishedtransfers.cc	/^void FinishedTransfers::on(FinishedManagerListener::RemovedUl, FinishedItem *item) throw()$/;"	f	class:FinishedTransfers
+on	hashdialog.cc	/^void Hash::on(TimerManagerListener::Second, uint32_t tics) throw()$/;"	f	class:Hash
+on	hub.cc	/^void Hub::on(ClientListener::Connected, Client *) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::Connecting, Client *) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::Failed, Client *, const string &reason) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::GetPassword, Client *) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::HubUpdated, Client *) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::Message, Client *, const OnlineUser &from, const string &message) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::NickTaken, Client *) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::PrivateMessage, Client *, const OnlineUser &from,$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::Redirect, Client *, const string &address) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::SearchFlood, Client *, const string &msg) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::StatusMessage, Client *, const string &message) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::UserRemoved, Client *, const OnlineUser &user) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::UserUpdated, Client *, const OnlineUser &user) throw()$/;"	f	class:Hub
+on	hub.cc	/^void Hub::on(ClientListener::UsersUpdated, Client *, const OnlineUser::List &list) throw()$/;"	f	class:Hub
+on	mainwindow.cc	/^void MainWindow::on(ConnectionManagerListener::Added, ConnectionQueueItem *cqi) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(ConnectionManagerListener::Failed, ConnectionQueueItem *cqi, const string &reason) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(ConnectionManagerListener::Removed, ConnectionQueueItem *cqi) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(ConnectionManagerListener::StatusChanged, ConnectionQueueItem *cqi) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(DownloadManagerListener::Complete, Download *dl) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(DownloadManagerListener::Failed, Download *dl, const string &reason) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(DownloadManagerListener::Starting, Download *dl) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(DownloadManagerListener::Tick, const Download::List &list) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(LogManagerListener::Message, time_t t, const string &message) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(QueueManagerListener::Finished, QueueItem *item, const string& dir, int64_t avSpeed) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(TimerManagerListener::Second, uint32_t ticks) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(UploadManagerListener::Complete, Upload *ul) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(UploadManagerListener::Starting, Upload *ul) throw()$/;"	f	class:MainWindow
+on	mainwindow.cc	/^void MainWindow::on(UploadManagerListener::Tick, const Upload::List &list) throw()$/;"	f	class:MainWindow
+on	publichubs.cc	/^void PublicHubs::on(FavoriteManagerListener::DownloadFailed, const string &file) throw()$/;"	f	class:PublicHubs
+on	publichubs.cc	/^void PublicHubs::on(FavoriteManagerListener::DownloadFinished, const string &file) throw()$/;"	f	class:PublicHubs
+on	publichubs.cc	/^void PublicHubs::on(FavoriteManagerListener::DownloadStarting, const string &file) throw()$/;"	f	class:PublicHubs
+on	search.cc	/^void Search::on(ClientManagerListener::ClientConnected, Client *client) throw()$/;"	f	class:Search
+on	search.cc	/^void Search::on(ClientManagerListener::ClientDisconnected, Client *client) throw()$/;"	f	class:Search
+on	search.cc	/^void Search::on(ClientManagerListener::ClientUpdated, Client *client) throw()$/;"	f	class:Search
+on	search.cc	/^void Search::on(SearchManagerListener::SR, SearchResult *result) throw()$/;"	f	class:Search
+onAboutClicked_gui	mainwindow.cc	/^void MainWindow::onAboutClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onAboutDialogActivateLink_gui	mainwindow.cc	/^void MainWindow::onAboutDialogActivateLink_gui(GtkAboutDialog *dialog, const gchar *link, gpointer data)$/;"	f	class:MainWindow
+onAddEntry_gui	favoritehubs.cc	/^void FavoriteHubs::onAddEntry_gui(GtkWidget *widget, gpointer data)$/;"	f	class:FavoriteHubs
+onAddFav_gui	publichubs.cc	/^void PublicHubs::onAddFav_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PublicHubs
+onAddFavoriteUserClicked_gui	mainwindow.cc	/^void MainWindow::onAddFavoriteUserClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onAddFavoriteUserClicked_gui	search.cc	/^void Search::onAddFavoriteUserClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onAddFavorite_gui	settingsdialog.cc	/^void Settings::onAddFavorite_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onAddShare_gui	settingsdialog.cc	/^void Settings::onAddShare_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onAdd_gui	publichubs.cc	/^void PublicHubs::onAdd_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onAdvancedToggledClicked_gui	settingsdialog.cc	/^void Settings::onAdvancedToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onAppearanceToggledClicked_gui	settingsdialog.cc	/^void Settings::onAppearanceToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onBrowseFinished_gui	settingsdialog.cc	/^void Settings::onBrowseFinished_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onBrowseItemClicked_gui	hub.cc	/^void Hub::onBrowseItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onBrowseUnfinished_gui	settingsdialog.cc	/^void Settings::onBrowseUnfinished_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onButtonPress_gui	publichubs.cc	/^gboolean PublicHubs::onButtonPress_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:PublicHubs
+onButtonPressed_gui	favoritehubs.cc	/^gboolean FavoriteHubs::onButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:FavoriteHubs
+onButtonPressed_gui	finishedtransfers.cc	/^gboolean FinishedTransfers::onButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:FinishedTransfers
+onButtonPressed_gui	search.cc	/^gboolean Search::onButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Search
+onButtonPressed_gui	sharebrowser.cc	/^gboolean ShareBrowser::onButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:ShareBrowser
+onButtonReleasePage_gui	mainwindow.cc	/^gboolean MainWindow::onButtonReleasePage_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:MainWindow
+onButtonRelease_gui	publichubs.cc	/^gboolean PublicHubs::onButtonRelease_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:PublicHubs
+onButtonReleased_gui	favoritehubs.cc	/^gboolean FavoriteHubs::onButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:FavoriteHubs
+onButtonReleased_gui	finishedtransfers.cc	/^gboolean FinishedTransfers::onButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:FinishedTransfers
+onButtonReleased_gui	search.cc	/^gboolean Search::onButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Search
+onCellEdited_gui	publichubs.cc	/^void PublicHubs::onCellEdited_gui(GtkCellRendererText *cell, char *path, char *text, gpointer data)$/;"	f	class:PublicHubs
+onCertificatesFileBrowseClicked_gui	settingsdialog.cc	/^void Settings::onCertificatesFileBrowseClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onCertificatesPathBrowseClicked_gui	settingsdialog.cc	/^void Settings::onCertificatesPathBrowseClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onCertificatesPrivateBrowseClicked_gui	settingsdialog.cc	/^void Settings::onCertificatesPrivateBrowseClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onCertificatesToggledClicked_gui	settingsdialog.cc	/^void Settings::onCertificatesToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onChatPointerMoved_gui	hub.cc	/^gboolean Hub::onChatPointerMoved_gui(GtkWidget *widget, GdkEventMotion *event, gpointer data)$/;"	f	class:Hub
+onChatPointerMoved_gui	privatemessage.cc	/^gboolean PrivateMessage::onChatPointerMoved_gui(GtkWidget* widget, GdkEventMotion* event, gpointer data)$/;"	f	class:PrivateMessage
+onChatResize_gui	hub.cc	/^void Hub::onChatResize_gui(GtkAdjustment *adjustment, gpointer data)$/;"	f	class:Hub
+onChatResize_gui	privatemessage.cc	/^void PrivateMessage::onChatResize_gui(GtkAdjustment *adjustment, gpointer data)$/;"	f	class:PrivateMessage
+onChatScroll_gui	hub.cc	/^void Hub::onChatScroll_gui(GtkAdjustment *adjustment, gpointer data)$/;"	f	class:Hub
+onChatScroll_gui	privatemessage.cc	/^void PrivateMessage::onChatScroll_gui(GtkAdjustment *adjustment, gpointer data)$/;"	f	class:PrivateMessage
+onChatVisibilityChanged_gui	hub.cc	/^gboolean Hub::onChatVisibilityChanged_gui(GtkWidget *widget, GdkEventVisibility *event, gpointer data)$/;"	f	class:Hub
+onChatVisibilityChanged_gui	privatemessage.cc	/^gboolean PrivateMessage::onChatVisibilityChanged_gui(GtkWidget* widget, GdkEventVisibility* event, gpointer data)$/;"	f	class:PrivateMessage
+onCloseBookEntry_gui	mainwindow.cc	/^void MainWindow::onCloseBookEntry_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onCloseClicked_gui	mainwindow.cc	/^void MainWindow::onCloseClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onCloseConnectionClicked_gui	mainwindow.cc	/^void MainWindow::onCloseConnectionClicked_gui(GtkMenuItem *menuItem, gpointer data)$/;"	f	class:MainWindow
+onCloseWindow_gui	mainwindow.cc	/^gboolean MainWindow::onCloseWindow_gui(GtkWidget *widget, GdkEvent *event, gpointer data)$/;"	f	class:MainWindow
+onColorToggledClicked_gui	settingsdialog.cc	/^void Settings::onColorToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onComboBoxChanged_gui	search.cc	/^void Search::onComboBoxChanged_gui(GtkWidget* widget, gpointer data)$/;"	f	class:Search
+onConfigure_gui	publichubs.cc	/^void PublicHubs::onConfigure_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onConnectClicked_gui	mainwindow.cc	/^void MainWindow::onConnectClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onConnect_gui	favoritehubs.cc	/^void FavoriteHubs::onConnect_gui(GtkButton *widget, gpointer data)$/;"	f	class:FavoriteHubs
+onConnect_gui	publichubs.cc	/^void PublicHubs::onConnect_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onCopyMagnetClicked_gui	downloadqueue.cc	/^void DownloadQueue::onCopyMagnetClicked_gui(GtkMenuItem* item, gpointer data)$/;"	f	class:DownloadQueue
+onCopyMagnetClicked_gui	search.cc	/^void Search::onCopyMagnetClicked_gui(GtkMenuItem* item, gpointer data)$/;"	f	class:Search
+onCopyMagnetClicked_gui	sharebrowser.cc	/^void ShareBrowser::onCopyMagnetClicked_gui(GtkMenuItem* item, gpointer data)$/;"	f	class:ShareBrowser
+onCopyNickItemClicked_gui	hub.cc	/^void Hub::onCopyNickItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onCopyURIClicked_gui	hub.cc	/^void Hub::onCopyURIClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onCopyURIClicked_gui	privatemessage.cc	/^void PrivateMessage::onCopyURIClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PrivateMessage
+onDirButtonPressed_gui	downloadqueue.cc	/^gboolean DownloadQueue::onDirButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:DownloadQueue
+onDirButtonReleased_gui	downloadqueue.cc	/^gboolean DownloadQueue::onDirButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:DownloadQueue
+onDirButtonReleased_gui	sharebrowser.cc	/^gboolean ShareBrowser::onDirButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:ShareBrowser
+onDirKeyReleased_gui	downloadqueue.cc	/^gboolean DownloadQueue::onDirKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:DownloadQueue
+onDirKeyReleased_gui	sharebrowser.cc	/^gboolean ShareBrowser::onDirKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:ShareBrowser
+onDirMoveClicked_gui	downloadqueue.cc	/^void DownloadQueue::onDirMoveClicked_gui(GtkMenuItem *menuItem, gpointer data)$/;"	f	class:DownloadQueue
+onDirPriorityClicked_gui	downloadqueue.cc	/^void DownloadQueue::onDirPriorityClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onDirRemoveClicked_gui	downloadqueue.cc	/^void DownloadQueue::onDirRemoveClicked_gui(GtkMenuItem *menuitem, gpointer data)$/;"	f	class:DownloadQueue
+onDownloadClicked_gui	search.cc	/^void Search::onDownloadClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadDirClicked_gui	search.cc	/^void Search::onDownloadDirClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadDirClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadDirClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadDirToClicked_gui	search.cc	/^void Search::onDownloadDirToClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadDirToClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadDirToClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadFavoriteClicked_gui	search.cc	/^void Search::onDownloadFavoriteClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadFavoriteClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadFavoriteClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadFavoriteDirClicked_gui	search.cc	/^void Search::onDownloadFavoriteDirClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadFavoriteDirClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadFavoriteDirClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadQueueClicked_gui	mainwindow.cc	/^void MainWindow::onDownloadQueueClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onDownloadToClicked_gui	search.cc	/^void Search::onDownloadToClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onDownloadToClicked_gui	sharebrowser.cc	/^void ShareBrowser::onDownloadToClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onDownloadToMatchClicked_gui	search.cc	/^void Search::onDownloadToMatchClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onEditEntry_gui	favoritehubs.cc	/^void FavoriteHubs::onEditEntry_gui(GtkWidget *widget, gpointer data)$/;"	f	class:FavoriteHubs
+onEntryKeyPress_gui	hub.cc	/^gboolean Hub::onEntryKeyPress_gui(GtkWidget *entry, GdkEventKey *event, gpointer data)$/;"	f	class:Hub
+onFavoriteButtonReleased_gui	settingsdialog.cc	/^gboolean Settings::onFavoriteButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Settings
+onFavoriteHubsClicked_gui	mainwindow.cc	/^void MainWindow::onFavoriteHubsClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onFileButtonPressed_gui	downloadqueue.cc	/^gboolean DownloadQueue::onFileButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:DownloadQueue
+onFileButtonReleased_gui	downloadqueue.cc	/^gboolean DownloadQueue::onFileButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:DownloadQueue
+onFileButtonReleased_gui	sharebrowser.cc	/^gboolean ShareBrowser::onFileButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:ShareBrowser
+onFileGetListClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileGetListClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileKeyReleased_gui	downloadqueue.cc	/^gboolean DownloadQueue::onFileKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:DownloadQueue
+onFileKeyReleased_gui	sharebrowser.cc	/^gboolean ShareBrowser::onFileKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:ShareBrowser
+onFileMoveClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileMoveClicked_gui(GtkMenuItem *menuItem, gpointer data)$/;"	f	class:DownloadQueue
+onFilePriorityClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFilePriorityClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileReAddSourceClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileReAddSourceClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileRemoveClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileRemoveClicked_gui(GtkMenuItem *menuitem, gpointer data)$/;"	f	class:DownloadQueue
+onFileRemoveSourceClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileRemoveSourceClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileRemoveUserFromQueueClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileRemoveUserFromQueueClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileSearchAlternatesClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileSearchAlternatesClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFileSendPMClicked_gui	downloadqueue.cc	/^void DownloadQueue::onFileSendPMClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:DownloadQueue
+onFilterButtonToggled_gui	search.cc	/^void Search::onFilterButtonToggled_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Search
+onFilterHubs_gui	publichubs.cc	/^gboolean PublicHubs::onFilterHubs_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:PublicHubs
+onFindButtonClicked_gui	sharebrowser.cc	/^void ShareBrowser::onFindButtonClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:ShareBrowser
+onFinishedDownloadsClicked_gui	mainwindow.cc	/^void MainWindow::onFinishedDownloadsClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onFinishedUploadsClicked_gui	mainwindow.cc	/^void MainWindow::onFinishedUploadsClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onFocusIn_gui	hub.cc	/^gboolean Hub::onFocusIn_gui(GtkWidget *widget, GdkEventFocus *event, gpointer data)$/;"	f	class:Hub
+onFocusIn_gui	mainwindow.cc	/^gboolean MainWindow::onFocusIn_gui(GtkWidget *widget, GdkEventFocus *event, gpointer data)$/;"	f	class:MainWindow
+onFocusIn_gui	privatemessage.cc	/^gboolean PrivateMessage::onFocusIn_gui(GtkWidget *widget, GdkEventFocus *event, gpointer data)$/;"	f	class:PrivateMessage
+onFocusIn_gui	publichubs.cc	/^gboolean PublicHubs::onFocusIn_gui(GtkWidget *widget, GdkEventFocus *event, gpointer data)$/;"	f	class:PublicHubs
+onFocusIn_gui	search.cc	/^gboolean Search::onFocusIn_gui(GtkWidget *widget, GdkEventFocus *event, gpointer data)$/;"	f	class:Search
+onForceAttemptClicked_gui	mainwindow.cc	/^void MainWindow::onForceAttemptClicked_gui(GtkMenuItem *menuItem, gpointer data)$/;"	f	class:MainWindow
+onGenerateCertificatesClicked_gui	settingsdialog.cc	/^void Settings::onGenerateCertificatesClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onGetFileListClicked_gui	mainwindow.cc	/^void MainWindow::onGetFileListClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onGetFileListClicked_gui	search.cc	/^void Search::onGetFileListClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onGrantExtraSlotClicked_gui	mainwindow.cc	/^void MainWindow::onGrantExtraSlotClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onGrantExtraSlotClicked_gui	search.cc	/^void Search::onGrantExtraSlotClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onGrantItemClicked_gui	hub.cc	/^void Hub::onGrantItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onGroupByComboBoxChanged_gui	search.cc	/^void Search::onGroupByComboBoxChanged_gui(GtkWidget *comboBox, gpointer data)$/;"	f	class:Search
+onHashClicked_gui	mainwindow.cc	/^void MainWindow::onHashClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onHubTagEvent_gui	hub.cc	/^gboolean Hub::onHubTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:Hub
+onHubTagEvent_gui	privatemessage.cc	/^gboolean PrivateMessage::onHubTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:PrivateMessage
+onInDirect_gui	settingsdialog.cc	/^void Settings::onInDirect_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onInFW_NAT_gui	settingsdialog.cc	/^void Settings::onInFW_NAT_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onInPassive_gui	settingsdialog.cc	/^void Settings::onInPassive_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onKeyPress_gui	privatemessage.cc	/^gboolean PrivateMessage::onKeyPress_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:PrivateMessage
+onKeyPressed_gui	mainwindow.cc	/^gboolean MainWindow::onKeyPressed_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:MainWindow
+onKeyRelease_gui	publichubs.cc	/^gboolean PublicHubs::onKeyRelease_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:PublicHubs
+onKeyReleased_gui	favoritehubs.cc	/^gboolean FavoriteHubs::onKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:FavoriteHubs
+onKeyReleased_gui	finishedtransfers.cc	/^gboolean FinishedTransfers::onKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:FinishedTransfers
+onKeyReleased_gui	search.cc	/^gboolean Search::onKeyReleased_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:Search
+onLinkTagEvent_gui	hub.cc	/^gboolean Hub::onLinkTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:Hub
+onLinkTagEvent_gui	privatemessage.cc	/^gboolean PrivateMessage::onLinkTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:PrivateMessage
+onLogBrowseClicked_gui	settingsdialog.cc	/^void Settings::onLogBrowseClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onLogDownloadClicked_gui	settingsdialog.cc	/^void Settings::onLogDownloadClicked_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onLogMainClicked_gui	settingsdialog.cc	/^void Settings::onLogMainClicked_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onLogPrivateClicked_gui	settingsdialog.cc	/^void Settings::onLogPrivateClicked_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onLogUploadClicked_gui	settingsdialog.cc	/^void Settings::onLogUploadClicked_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onMagnetPropertiesClicked_gui	hub.cc	/^void Hub::onMagnetPropertiesClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onMagnetPropertiesClicked_gui	privatemessage.cc	/^void PrivateMessage::onMagnetPropertiesClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PrivateMessage
+onMagnetTagEvent_gui	hub.cc	/^gboolean Hub::onMagnetTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:Hub
+onMagnetTagEvent_gui	privatemessage.cc	/^gboolean PrivateMessage::onMagnetTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:PrivateMessage
+onMatchButtonClicked_gui	sharebrowser.cc	/^void ShareBrowser::onMatchButtonClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:ShareBrowser
+onMatchItemClicked_gui	hub.cc	/^void Hub::onMatchItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onMatchQueueClicked_gui	mainwindow.cc	/^void MainWindow::onMatchQueueClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onMatchQueueClicked_gui	search.cc	/^void Search::onMatchQueueClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onMoveDown_gui	publichubs.cc	/^void PublicHubs::onMoveDown_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onMoveUp_gui	publichubs.cc	/^void PublicHubs::onMoveUp_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onMsgItemClicked_gui	hub.cc	/^void Hub::onMsgItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onNextButtonClicked_gui	sharebrowser.cc	/^void ShareBrowser::onNextButtonClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:ShareBrowser
+onNextTabClicked_gui	mainwindow.cc	/^void MainWindow::onNextTabClicked_gui(GtkWidget* widget, gpointer data)$/;"	f	class:MainWindow
+onNickListButtonPress_gui	hub.cc	/^gboolean Hub::onNickListButtonPress_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Hub
+onNickListButtonRelease_gui	hub.cc	/^gboolean Hub::onNickListButtonRelease_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Hub
+onNickListKeyRelease_gui	hub.cc	/^gboolean Hub::onNickListKeyRelease_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:Hub
+onNickTagEvent_gui	hub.cc	/^gboolean Hub::onNickTagEvent_gui(GtkTextTag *tag, GObject *textView, GdkEvent *event, GtkTextIter *iter, gpointer data)$/;"	f	class:Hub
+onOpButtonToggled_gui	search.cc	/^void Search::onOpButtonToggled_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Search
+onOpenFileListClicked_gui	mainwindow.cc	/^void MainWindow::onOpenFileListClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onOpenFolder_gui	finishedtransfers.cc	/^void FinishedTransfers::onOpenFolder_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:FinishedTransfers
+onOpenHubClicked_gui	hub.cc	/^void Hub::onOpenHubClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onOpenHubClicked_gui	privatemessage.cc	/^void PrivateMessage::onOpenHubClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PrivateMessage
+onOpenLinkClicked_gui	hub.cc	/^void Hub::onOpenLinkClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onOpenLinkClicked_gui	privatemessage.cc	/^void PrivateMessage::onOpenLinkClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PrivateMessage
+onOpenOwnListClicked_gui	mainwindow.cc	/^void MainWindow::onOpenOwnListClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onOpen_gui	finishedtransfers.cc	/^void FinishedTransfers::onOpen_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:FinishedTransfers
+onOutDirect_gui	settingsdialog.cc	/^void Settings::onOutDirect_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onPageSwitched_gui	mainwindow.cc	/^void MainWindow::onPageSwitched_gui(GtkNotebook *notebook, GtkNotebookPage *page, guint num, gpointer data)$/;"	f	class:MainWindow
+onPaneRealized_gui	mainwindow.cc	/^void MainWindow::onPaneRealized_gui(GtkWidget *pane, gpointer data)$/;"	f	class:MainWindow
+onPreferencesClicked_gui	mainwindow.cc	/^void MainWindow::onPreferencesClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onPreviousTabClicked_gui	mainwindow.cc	/^void MainWindow::onPreviousTabClicked_gui(GtkWidget* widget, gpointer data)$/;"	f	class:MainWindow
+onPrivateMessageClicked_gui	mainwindow.cc	/^void MainWindow::onPrivateMessageClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onPrivateMessageClicked_gui	search.cc	/^void Search::onPrivateMessageClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onPublicAdd_gui	settingsdialog.cc	/^void Settings::onPublicAdd_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onPublicEdit_gui	settingsdialog.cc	/^void Settings::onPublicEdit_gui(GtkCellRendererText *cell, char *path, char *text, gpointer data)$/;"	f	class:Settings
+onPublicHubsClicked_gui	mainwindow.cc	/^void MainWindow::onPublicHubsClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onPublicHubs_gui	settingsdialog.cc	/^void Settings::onPublicHubs_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onPublicMoveDown_gui	settingsdialog.cc	/^void Settings::onPublicMoveDown_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onPublicMoveUp_gui	settingsdialog.cc	/^void Settings::onPublicMoveUp_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onPublicRemove_gui	settingsdialog.cc	/^void Settings::onPublicRemove_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onQueueToggledClicked_gui	settingsdialog.cc	/^void Settings::onQueueToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onQuitClicked_gui	mainwindow.cc	/^void MainWindow::onQuitClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onRaisePage_gui	mainwindow.cc	/^void MainWindow::onRaisePage_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onReconnectClicked_gui	mainwindow.cc	/^void MainWindow::onReconnectClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onRefreshFileListClicked_gui	mainwindow.cc	/^void MainWindow::onRefreshFileListClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onRefresh_gui	publichubs.cc	/^void PublicHubs::onRefresh_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onRemoveAll_gui	finishedtransfers.cc	/^void FinishedTransfers::onRemoveAll_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:FinishedTransfers
+onRemoveClicked_gui	search.cc	/^void Search::onRemoveClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onRemoveEntry_gui	favoritehubs.cc	/^void FavoriteHubs::onRemoveEntry_gui(GtkWidget *widget, gpointer data)$/;"	f	class:FavoriteHubs
+onRemoveFavorite_gui	settingsdialog.cc	/^void Settings::onRemoveFavorite_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onRemoveItems_gui	finishedtransfers.cc	/^void FinishedTransfers::onRemoveItems_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:FinishedTransfers
+onRemoveShare_gui	settingsdialog.cc	/^void Settings::onRemoveShare_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onRemoveUserFromQueueClicked_gui	mainwindow.cc	/^void MainWindow::onRemoveUserFromQueueClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onRemoveUserFromQueueClicked_gui	search.cc	/^void Search::onRemoveUserFromQueueClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onRemoveUserItemClicked_gui	hub.cc	/^void Hub::onRemoveUserItemClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onRemove_gui	publichubs.cc	/^void PublicHubs::onRemove_gui(GtkWidget *widget, gpointer data)$/;"	f	class:PublicHubs
+onSearchAlternatesClicked_gui	sharebrowser.cc	/^void ShareBrowser::onSearchAlternatesClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:ShareBrowser
+onSearchButtonClicked_gui	search.cc	/^void Search::onSearchButtonClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Search
+onSearchByTTHClicked_gui	search.cc	/^void Search::onSearchByTTHClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Search
+onSearchClicked_gui	mainwindow.cc	/^void MainWindow::onSearchClicked_gui(GtkWidget *widget, gpointer data)$/;"	f	class:MainWindow
+onSearchEntryKeyPressed_gui	search.cc	/^gboolean Search::onSearchEntryKeyPressed_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:Search
+onSearchMagnetClicked_gui	hub.cc	/^void Hub::onSearchMagnetClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:Hub
+onSearchMagnetClicked_gui	privatemessage.cc	/^void PrivateMessage::onSearchMagnetClicked_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:PrivateMessage
+onSendMessage_gui	hub.cc	/^void Hub::onSendMessage_gui(GtkEntry *entry, gpointer data)$/;"	f	class:Hub
+onSendMessage_gui	privatemessage.cc	/^void PrivateMessage::onSendMessage_gui(GtkEntry *entry, gpointer data)$/;"	f	class:PrivateMessage
+onShareButtonReleased_gui	settingsdialog.cc	/^gboolean Settings::onShareButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:Settings
+onShareHiddenPressed_gui	settingsdialog.cc	/^gboolean Settings::onShareHiddenPressed_gui(GtkToggleButton *togglebutton, gpointer data)$/;"	f	class:Settings
+onSharedButtonToggled_gui	search.cc	/^void Search::onSharedButtonToggled_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Search
+onSlotsButtonToggled_gui	search.cc	/^void Search::onSlotsButtonToggled_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Search
+onSocks5_gui	settingsdialog.cc	/^void Settings::onSocks5_gui(GtkToggleButton *button, gpointer data)$/;"	f	class:Settings
+onStatusIconActivated_gui	mainwindow.cc	/^void MainWindow::onStatusIconActivated_gui(GtkStatusIcon *statusIcon, gpointer data)$/;"	f	class:MainWindow
+onStatusIconPopupMenu_gui	mainwindow.cc	/^void MainWindow::onStatusIconPopupMenu_gui(GtkStatusIcon *statusIcon, guint button, guint time, gpointer data)$/;"	f	class:MainWindow
+onToggleWindowVisibility_gui	mainwindow.cc	/^void MainWindow::onToggleWindowVisibility_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:MainWindow
+onToggledClicked_gui	favoritehubs.cc	/^void FavoriteHubs::onToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:FavoriteHubs
+onToggledClicked_gui	search.cc	/^void Search::onToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Search
+onTransferButtonPressed_gui	mainwindow.cc	/^gboolean MainWindow::onTransferButtonPressed_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:MainWindow
+onTransferButtonReleased_gui	mainwindow.cc	/^gboolean MainWindow::onTransferButtonReleased_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:MainWindow
+onUserCommandAdd_gui	settingsdialog.cc	/^void Settings::onUserCommandAdd_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandClick_gui	UserCommandMenu.cc	/^void UserCommandMenu::onUserCommandClick_gui(GtkMenuItem *item, gpointer data)$/;"	f	class:UserCommandMenu
+onUserCommandEdit_gui	settingsdialog.cc	/^void Settings::onUserCommandEdit_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandKeyPress_gui	settingsdialog.cc	/^gboolean Settings::onUserCommandKeyPress_gui(GtkWidget *widget, GdkEventKey *event, gpointer data)$/;"	f	class:Settings
+onUserCommandMoveDown_gui	settingsdialog.cc	/^void Settings::onUserCommandMoveDown_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandMoveUp_gui	settingsdialog.cc	/^void Settings::onUserCommandMoveUp_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandRemove_gui	settingsdialog.cc	/^void Settings::onUserCommandRemove_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandTypeChat_gui	settingsdialog.cc	/^void Settings::onUserCommandTypeChat_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandTypePM_gui	settingsdialog.cc	/^void Settings::onUserCommandTypePM_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandTypeRaw_gui	settingsdialog.cc	/^void Settings::onUserCommandTypeRaw_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onUserCommandTypeSeparator_gui	settingsdialog.cc	/^void Settings::onUserCommandTypeSeparator_gui(GtkWidget *widget, gpointer data)$/;"	f	class:Settings
+onWindowState_gui	mainwindow.cc	/^gboolean MainWindow::onWindowState_gui(GtkWidget *widget, GdkEventWindowState *event, gpointer data)$/;"	f	class:MainWindow
+onWindowView1ToggledClicked_gui	settingsdialog.cc	/^void Settings::onWindowView1ToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onWindowView2ToggledClicked_gui	settingsdialog.cc	/^void Settings::onWindowView2ToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onWindowView3ToggledClicked_gui	settingsdialog.cc	/^void Settings::onWindowView3ToggledClicked_gui(GtkCellRendererToggle *cell, gchar *path, gpointer data)$/;"	f	class:Settings
+onlyFree	search.hh	/^		bool onlyFree;$/;"	m	class:Search
+onlyOp	search.hh	/^		static bool onlyOp;$/;"	m	class:Search
+openDir_gui	sharebrowser.cc	/^void ShareBrowser::openDir_gui(const string &dir)$/;"	f	class:ShareBrowser
+openHashDialog_gui	wulformanager.cc	/^gint WulforManager::openHashDialog_gui()$/;"	f	class:WulforManager
+openMagnetDialog_gui	mainwindow.cc	/^void MainWindow::openMagnetDialog_gui(const string &magnet)$/;"	f	class:MainWindow
+openOwnList_client	mainwindow.cc	/^void MainWindow::openOwnList_client(bool useSetting)$/;"	f	class:MainWindow
+openSettingsDialog_gui	wulformanager.cc	/^gint WulforManager::openSettingsDialog_gui()$/;"	f	class:WulforManager
+openURI	WulforUtil.cc	/^void WulforUtil::openURI(const std::string &uri)$/;"	f	class:WulforUtil
+operator <	treeview.hh	/^				bool operator<(const Column &right) const$/;"	f	class:TreeView::Column
+padding	treeview.hh	/^		bool padding;$/;"	m	class:TreeView
+parent	dialogentry.hh	/^		GtkWindow* parent;$/;"	m	class:DialogEntry
+parseSearchResult	search.cc	/^void Search::parseSearchResult(SearchResult *result, StringMap &resultMap, GdkPixbuf **icon, int *actualSlots)$/;"	f	class:Search
+path	wulformanager.hh	/^		std::string path;$/;"	m	class:WulforManager
+popupDirMenu_gui	sharebrowser.cc	/^void ShareBrowser::popupDirMenu_gui()$/;"	f	class:ShareBrowser
+popupFileMenu_gui	sharebrowser.cc	/^void ShareBrowser::popupFileMenu_gui()$/;"	f	class:ShareBrowser
+popupMenu_gui	favoritehubs.cc	/^void FavoriteHubs::popupMenu_gui()$/;"	f	class:FavoriteHubs
+popupMenu_gui	search.cc	/^void Search::popupMenu_gui()$/;"	f	class:Search
+popupMenu_gui	treeview.cc	/^gboolean TreeView::popupMenu_gui(GtkWidget *widget, GdkEventButton *event, gpointer data)$/;"	f	class:TreeView
+popupNickMenu_gui	hub.cc	/^void Hub::popupNickMenu_gui()$/;"	f	class:Hub
+popupTransferMenu_gui	mainwindow.cc	/^void MainWindow::popupTransferMenu_gui()$/;"	f	class:MainWindow
+pos	treeview.hh	/^				int pos;$/;"	m	class:TreeView::Column
+previous	favoritehubs.hh	/^		GdkEventType previous;$/;"	m	class:FavoriteHubs
+previousGrouping	search.hh	/^		GroupType previousGrouping;$/;"	m	class:Search
+previousTab_gui	mainwindow.cc	/^void MainWindow::previousTab_gui()$/;"	f	class:MainWindow
+processClientQueue	wulformanager.cc	/^void WulforManager::processClientQueue()$/;"	f	class:WulforManager
+processGuiQueue	wulformanager.cc	/^void WulforManager::processGuiQueue()$/;"	f	class:WulforManager
+profileIsLocked	WulforUtil.cc	/^bool WulforUtil::profileIsLocked()$/;"	f	class:WulforUtil
+publicListStore	settingsdialog.hh	/^		GtkListStore *downloadToStore, *publicListStore, *queueStore,$/;"	m	class:Settings
+publicListView	settingsdialog.hh	/^		TreeView downloadToView, publicListView, queueView, shareView,$/;"	m	class:Settings
+putValue_gui	search.cc	/^void Search::putValue_gui(const string &str, int64_t size, SearchManager::SizeModes mode, SearchManager::TypeModes type)$/;"	f	class:Search
+queueStore	settingsdialog.hh	/^		GtkListStore *downloadToStore, *publicListStore, *queueStore,$/;"	m	class:Settings
+queueView	settingsdialog.hh	/^		TreeView downloadToView, publicListView, queueView, shareView,$/;"	m	class:Settings
+raisePage_gui	mainwindow.cc	/^void MainWindow::raisePage_gui(GtkWidget *page)$/;"	f	class:MainWindow
+reAddSource_client	downloadqueue.cc	/^void DownloadQueue::reAddSource_client(string target, string nick)$/;"	f	class:DownloadQueue
+rebuildHashData_client	hub.cc	/^void Hub::rebuildHashData_client()$/;"	f	class:Hub
+reconnect_client	hub.cc	/^void Hub::reconnect_client()$/;"	f	class:Hub
+redirect_client	hub.cc	/^void Hub::redirect_client(string address, bool follow)$/;"	f	class:Hub
+refreshFileList_client	hub.cc	/^void Hub::refreshFileList_client()$/;"	f	class:Hub
+refreshFileList_client	mainwindow.cc	/^void MainWindow::refreshFileList_client()$/;"	f	class:MainWindow
+refresh_client	publichubs.cc	/^void PublicHubs::refresh_client(int pos)$/;"	f	class:PublicHubs
+regroup_gui	search.cc	/^void Search::regroup_gui() $/;"	f	class:Search
+remove	entry.cc	/^void Entry::remove()$/;"	f	class:Entry
+removeAll_client	finishedtransfers.cc	/^void FinishedTransfers::removeAll_client()$/;"	f	class:FinishedTransfers
+removeBookEntry_gui	mainwindow.cc	/^void MainWindow::removeBookEntry_gui(BookEntry *entry)$/;"	f	class:MainWindow
+removeChild	entry.cc	/^void Entry::removeChild(Entry *entry)$/;"	f	class:Entry
+removeChild	entry.cc	/^void Entry::removeChild(const EntryType childType, const string &childId)$/;"	f	class:Entry
+removeChildren	entry.cc	/^void Entry::removeChildren()$/;"	f	class:Entry
+removeDir_client	downloadqueue.cc	/^void DownloadQueue::removeDir_client(string path)$/;"	f	class:DownloadQueue
+removeDir_gui	downloadqueue.cc	/^void DownloadQueue::removeDir_gui(const string &path, GtkTreeIter *parent)$/;"	f	class:DownloadQueue
+removeEntry_client	favoritehubs.cc	/^void FavoriteHubs::removeEntry_client(string address)$/;"	f	class:FavoriteHubs
+removeEntry_gui	favoritehubs.cc	/^void FavoriteHubs::removeEntry_gui(string address)$/;"	f	class:FavoriteHubs
+removeFile_gui	downloadqueue.cc	/^void DownloadQueue::removeFile_gui(string target, int64_t size)$/;"	f	class:DownloadQueue
+removeHub_gui	search.cc	/^void Search::removeHub_gui(string url)$/;"	f	class:Search
+removeItem_gui	finishedtransfers.cc	/^void FinishedTransfers::removeItem_gui(string target)$/;"	f	class:FinishedTransfers
+removeSource_client	downloadqueue.cc	/^void DownloadQueue::removeSource_client(string target, string nick)$/;"	f	class:DownloadQueue
+removeSource_client	search.cc	/^void Search::removeSource_client(string cid)$/;"	f	class:Search
+removeSources_client	downloadqueue.cc	/^void DownloadQueue::removeSources_client(string target, string nick)$/;"	f	class:DownloadQueue
+removeTabMenuItem_gui	mainwindow.cc	/^void MainWindow::removeTabMenuItem_gui(GtkWidget *menuItem)$/;"	f	class:MainWindow
+removeTag_gui	hub.cc	/^void Hub::removeTag_gui(const std::string &nick)$/;"	f	class:Hub
+removeTransfer_gui	mainwindow.cc	/^void MainWindow::removeTransfer_gui(string cid, bool download)$/;"	f	class:MainWindow
+removeUserCommand_client	settingsdialog.cc	/^void Settings::removeUserCommand_client(std::string name)$/;"	f	class:Settings
+removeUserFromQueue_client	hub.cc	/^void Hub::removeUserFromQueue_client(std::string cid)$/;"	f	class:Hub
+removeUserFromQueue_client	mainwindow.cc	/^void MainWindow::removeUserFromQueue_client(string cid)$/;"	f	class:MainWindow
+removeUser_gui	hub.cc	/^void Hub::removeUser_gui(string nick)$/;"	f	class:Hub
+remove_client	downloadqueue.cc	/^void DownloadQueue::remove_client(string target)$/;"	f	class:DownloadQueue
+remove_client	finishedtransfers.cc	/^void FinishedTransfers::remove_client(std::string target)$/;"	f	class:FinishedTransfers
+responseID	dialogentry.hh	/^		gint responseID;$/;"	m	class:DialogEntry
+restoreSettings	treeview.cc	/^void TreeView::restoreSettings()$/;"	f	class:TreeView
+resultStore	search.hh	/^		GtkTreeStore *resultStore;$/;"	m	class:Search
+resultView	search.hh	/^		TreeView hubView, resultView;$/;"	m	class:Search
+run	dialogentry.cc	/^gint DialogEntry::run()$/;"	f	class:DialogEntry
+save	settingsmanager.cc	/^void WulforSettingsManager::save()$/;"	f	class:WulforSettingsManager
+saveSettings	treeview.cc	/^void TreeView::saveSettings()$/;"	f	class:TreeView
+saveSettings_client	settingsdialog.cc	/^void Settings::saveSettings_client()$/;"	f	class:Settings
+saveUserCommand	settingsdialog.cc	/^void Settings::saveUserCommand(UserCommand *uc)$/;"	f	class:Settings
+scrollToBottom	hub.hh	/^		bool scrollToBottom;$/;"	m	class:Hub
+scrollToBottom	privatemessage.hh	/^		bool scrollToBottom;$/;"	m	class:PrivateMessage
+search	sharebrowser.hh	/^		std::string search;$/;"	m	class:ShareBrowser
+searchEntriesModel	search.cc	/^GtkTreeModel* Search::searchEntriesModel = NULL;$/;"	m	class:Search	file:
+searchEntriesModel	search.hh	/^		static GtkTreeModel *searchEntriesModel;$/;"	m	class:Search
+searchEntry	search.hh	/^		GtkWidget *searchEntry;$/;"	m	class:Search
+searchFilterFunc_gui	search.cc	/^gboolean Search::searchFilterFunc_gui(GtkTreeModel *model, GtkTreeIter *iter, gpointer data)$/;"	f	class:Search
+searchFilterModel	search.hh	/^		GtkTreeModel *searchFilterModel;$/;"	m	class:Search
+searchHits	search.hh	/^		int searchHits;$/;"	m	class:Search
+search_gui	search.cc	/^void Search::search_gui()$/;"	f	class:Search
+searchlist	search.hh	/^		TStringList searchlist;$/;"	m	class:Search
+selectedTag	hub.hh	/^		std::string selectedTag;$/;"	m	class:Hub
+selectedURI	privatemessage.hh	/^		std::string selectedURI;$/;"	m	class:PrivateMessage
+selection	search.hh	/^		GtkTreeSelection *selection;$/;"	m	class:Search
+sendMessage_client	downloadqueue.cc	/^void DownloadQueue::sendMessage_client(string target, string nick)$/;"	f	class:DownloadQueue
+sendMessage_client	hub.cc	/^void Hub::sendMessage_client(string message)$/;"	f	class:Hub
+sendMessage_client	privatemessage.cc	/^void PrivateMessage::sendMessage_client(std::string message)$/;"	f	class:PrivateMessage
+sendMessage_gui	downloadqueue.cc	/^void DownloadQueue::sendMessage_gui(string cid)$/;"	f	class:DownloadQueue
+sendUserCommand_client	UserCommandMenu.cc	/^void UserCommandMenu::sendUserCommand_client(string cid, string commandName, StringMap params)$/;"	f	class:UserCommandMenu
+sentAwayMessage	privatemessage.hh	/^		bool sentAwayMessage;$/;"	m	class:PrivateMessage
+set	settingsmanager.cc	/^void WulforSettingsManager::set(const string &key, const string &value)$/;"	f	class:WulforSettingsManager
+set	settingsmanager.cc	/^void WulforSettingsManager::set(const string &key, int value)$/;"	f	class:WulforSettingsManager
+setActive_gui	bookentry.cc	/^void BookEntry::setActive_gui()$/;"	f	class:BookEntry
+setBold_gui	bookentry.cc	/^void BookEntry::setBold_gui()$/;"	f	class:BookEntry
+setConnect_client	favoritehubs.cc	/^void FavoriteHubs::setConnect_client(string address, bool active)$/;"	f	class:FavoriteHubs
+setLabel_gui	bookentry.cc	/^void BookEntry::setLabel_gui(string text)$/;"	f	class:BookEntry
+setMainStatus_gui	mainwindow.cc	/^void MainWindow::setMainStatus_gui(string text, time_t t)$/;"	f	class:MainWindow
+setPassword_client	hub.cc	/^void Hub::setPassword_client(string password)$/;"	f	class:Hub
+setPriorityDir_client	downloadqueue.cc	/^void DownloadQueue::setPriorityDir_client(string path, QueueItem::Priority p)$/;"	f	class:DownloadQueue
+setPriority_client	downloadqueue.cc	/^void DownloadQueue::setPriority_client(string target, QueueItem::Priority p)$/;"	f	class:DownloadQueue
+setSortColumn_gui	treeview.cc	/^void TreeView::setSortColumn_gui(const string &column, const string &sortColumn)$/;"	f	class:TreeView
+setStats_gui	mainwindow.cc	/^void MainWindow::setStats_gui(std::string hub, std::string slot,$/;"	f	class:MainWindow
+setStatus_gui	downloadqueue.cc	/^void DownloadQueue::setStatus_gui(string text, string statusItem)$/;"	f	class:DownloadQueue
+setStatus_gui	hub.cc	/^void Hub::setStatus_gui(string statusBar, string text)$/;"	f	class:Hub
+setStatus_gui	mainwindow.cc	/^void MainWindow::setStatus_gui(string statusBar, std::string text)$/;"	f	class:MainWindow
+setStatus_gui	publichubs.cc	/^void PublicHubs::setStatus_gui(string statusBar, string text)$/;"	f	class:PublicHubs
+setStatus_gui	search.cc	/^void Search::setStatus_gui(string statusBar, string text)$/;"	f	class:Search
+setStatus_gui	sharebrowser.cc	/^void ShareBrowser::setStatus_gui(string statusBar, std::string msg)$/;"	f	class:ShareBrowser
+setTabPosition_gui	mainwindow.cc	/^void MainWindow::setTabPosition_gui(int position)$/;"	f	class:MainWindow
+setTitle	mainwindow.cc	/^void MainWindow::setTitle(const string& text)$/;"	f	class:MainWindow
+setToolbarStyle_gui	mainwindow.cc	/^void MainWindow::setToolbarStyle_gui(int style)$/;"	f	class:MainWindow
+setUrgent_gui	bookentry.cc	/^void BookEntry::setUrgent_gui()$/;"	f	class:BookEntry
+setUrgent_gui	mainwindow.cc	/^void MainWindow::setUrgent_gui()$/;"	f	class:MainWindow
+setView	treeview.cc	/^void TreeView::setView(GtkTreeView *view)$/;"	f	class:TreeView
+setView	treeview.cc	/^void TreeView::setView(GtkTreeView *view, bool padding, const string &name)$/;"	f	class:TreeView
+shareHidden_client	settingsdialog.cc	/^void Settings::shareHidden_client(bool show)$/;"	f	class:Settings
+shareItems	sharebrowser.hh	/^		int shareItems;$/;"	m	class:ShareBrowser
+shareSize	sharebrowser.hh	/^		int64_t shareSize;$/;"	m	class:ShareBrowser
+shareStore	settingsdialog.hh	/^			*shareStore, *appearanceStore, *colorStore, *windowStore1,$/;"	m	class:Settings
+shareView	settingsdialog.hh	/^		TreeView downloadToView, publicListView, queueView, shareView,$/;"	m	class:Settings
+show	downloadqueue.cc	/^void DownloadQueue::show()$/;"	f	class:DownloadQueue
+show	favoritehubs.cc	/^void FavoriteHubs::show()$/;"	f	class:FavoriteHubs
+show	finishedtransfers.cc	/^void FinishedTransfers::show()$/;"	f	class:FinishedTransfers
+show	hub.cc	/^void Hub::show()$/;"	f	class:Hub
+show	mainwindow.cc	/^void MainWindow::show()$/;"	f	class:MainWindow
+show	privatemessage.cc	/^void PrivateMessage::show()$/;"	f	class:PrivateMessage
+show	publichubs.cc	/^void PublicHubs::show()$/;"	f	class:PublicHubs
+show	search.cc	/^void Search::show()$/;"	f	class:Search
+show	sharebrowser.cc	/^void ShareBrowser::show()$/;"	f	class:ShareBrowser
+showDownloadQueue_gui	mainwindow.cc	/^void MainWindow::showDownloadQueue_gui()$/;"	f	class:MainWindow
+showErrorDialog	settingsdialog.cc	/^void Settings::showErrorDialog(const std::string &error)$/;"	f	class:Settings
+showErrorDialog_gui	favoritehubs.cc	/^void FavoriteHubs::showErrorDialog_gui(const string &description)$/;"	f	class:FavoriteHubs
+showFavoriteHubs_gui	mainwindow.cc	/^void MainWindow::showFavoriteHubs_gui()$/;"	f	class:MainWindow
+showFinishedDownloads_gui	mainwindow.cc	/^void MainWindow::showFinishedDownloads_gui()$/;"	f	class:MainWindow
+showFinishedUploads_gui	mainwindow.cc	/^void MainWindow::showFinishedUploads_gui()$/;"	f	class:MainWindow
+showHub_gui	mainwindow.cc	/^void MainWindow::showHub_gui(string address, string encoding)$/;"	f	class:MainWindow
+showMessageDialog_gui	mainwindow.cc	/^void MainWindow::showMessageDialog_gui(const string primaryText, const string secondaryText)$/;"	f	class:MainWindow
+showPublicHubs_gui	mainwindow.cc	/^void MainWindow::showPublicHubs_gui()$/;"	f	class:MainWindow
+showShareBrowser_gui	mainwindow.cc	/^void MainWindow::showShareBrowser_gui(User::Ptr user, string filename, string dir, bool useSetting)$/;"	f	class:MainWindow
+skipHits	sharebrowser.hh	/^		int skipHits;$/;"	m	class:ShareBrowser
+sortedColumns	treeview.hh	/^		SortedColMap sortedColumns;$/;"	m	class:TreeView
+sortedFilterModel	search.hh	/^		GtkTreeModel *sortedFilterModel;$/;"	m	class:Search
+sortedHiddenColumns	treeview.hh	/^		SortedColMap sortedHiddenColumns;$/;"	m	class:TreeView
+sources	downloadqueue.hh	/^		hash_map<std::string, std::map<std::string, std::string> > sources;$/;"	m	class:DownloadQueue
+speedDataFunc	treeview.cc	/^void TreeView::speedDataFunc(GtkTreeViewColumn *col, GtkCellRenderer *renderer, GtkTreeModel *model, GtkTreeIter *iter, gpointer column)$/;"	f	class:TreeView
+splitMagnet	WulforUtil.cc	/^bool WulforUtil::splitMagnet(const string &magnet, string &name, int64_t &size, string &tth)$/;"	f	class:WulforUtil
+splitString	WulforUtil.cc	/^vector<int> WulforUtil::splitString(const string &str, const string &delimiter)$/;"	f	class:WulforUtil
+start	wulformanager.cc	/^void WulforManager::start()$/;"	f	class:WulforManager
+startBytes	hashdialog.hh	/^		int64_t startBytes;$/;"	m	class:Hash
+startFiles	hashdialog.hh	/^		size_t startFiles;$/;"	m	class:Hash
+startSocket_client	mainwindow.cc	/^void MainWindow::startSocket_client()$/;"	f	class:MainWindow
+startTime	hashdialog.hh	/^		uint32_t startTime;$/;"	m	class:Hash
+statusIcon	mainwindow.hh	/^		GtkStatusIcon *statusIcon;$/;"	m	class:MainWindow
+stop	wulformanager.cc	/^void WulforManager::stop()$/;"	f	class:WulforManager
+stringMap	settingsmanager.hh	/^		std::map<std::string, std::string> stringMap;$/;"	m	class:WulforSettingsManager
+tabMenuItem	bookentry.hh	/^		GtkWidget *tabMenuItem;$/;"	m	class:BookEntry
+threadFunc_client	wulformanager.cc	/^gpointer WulforManager::threadFunc_client(gpointer data)$/;"	f	class:WulforManager
+threadFunc_gui	wulformanager.cc	/^gpointer WulforManager::threadFunc_gui(gpointer data)$/;"	f	class:WulforManager
+tips	bookentry.hh	/^		GtkTooltips *tips;$/;"	m	class:BookEntry
+title	treeview.hh	/^				std::string title;$/;"	m	class:TreeView::Column
+toggleColumnVisibility	treeview.cc	/^void TreeView::toggleColumnVisibility(GtkMenuItem *item, gpointer data)$/;"	f	class:TreeView
+totalBytes	finishedtransfers.hh	/^		int64_t totalBytes, totalTime;$/;"	m	class:FinishedTransfers
+totalItems	downloadqueue.hh	/^		int totalItems;$/;"	m	class:DownloadQueue
+totalShared	hub.hh	/^		int64_t totalShared;$/;"	m	class:Hub
+totalSize	downloadqueue.hh	/^		int64_t totalSize;$/;"	m	class:DownloadQueue
+totalTime	finishedtransfers.hh	/^		int64_t totalBytes, totalTime;$/;"	m	class:FinishedTransfers
+transferComplete_client	mainwindow.cc	/^void MainWindow::transferComplete_client(Transfer *t)$/;"	f	class:MainWindow
+transferSelection	finishedtransfers.hh	/^		GtkTreeSelection *transferSelection;$/;"	m	class:FinishedTransfers
+transferSelection	mainwindow.hh	/^		GtkTreeSelection *transferSelection;$/;"	m	class:MainWindow
+transferStore	finishedtransfers.hh	/^		GtkListStore *transferStore;$/;"	m	class:FinishedTransfers
+transferStore	mainwindow.hh	/^		GtkListStore *transferStore;$/;"	m	class:MainWindow
+transferView	finishedtransfers.hh	/^		TreeView transferView;$/;"	m	class:FinishedTransfers
+transferView	mainwindow.hh	/^		TreeView transferView;$/;"	m	class:MainWindow
+truncatedLabelText	bookentry.hh	/^		std::string truncatedLabelText;$/;"	m	class:BookEntry
+type	entry.hh	/^		EntryType type;$/;"	m	class:Entry
+type	treeview.hh	/^				TreeView::columnType type;$/;"	m	class:TreeView::Column
+ungroup_gui	search.cc	/^void Search::ungroup_gui()$/;"	f	class:Search
+updateCursor	privatemessage.cc	/^void PrivateMessage::updateCursor(GtkWidget *widget)$/;"	f	class:PrivateMessage
+updateCursor_gui	hub.cc	/^void Hub::updateCursor_gui(GtkWidget *widget)$/;"	f	class:Hub
+updateFileView	sharebrowser.hh	/^		bool updateFileView;$/;"	m	class:ShareBrowser
+updateFileView_client	downloadqueue.cc	/^void DownloadQueue::updateFileView_client(string path)$/;"	f	class:DownloadQueue
+updateFileView_gui	downloadqueue.cc	/^void DownloadQueue::updateFileView_gui()$/;"	f	class:DownloadQueue
+updateFile_gui	downloadqueue.cc	/^void DownloadQueue::updateFile_gui(StringMap params)$/;"	f	class:DownloadQueue
+updateFiles_gui	sharebrowser.cc	/^void ShareBrowser::updateFiles_gui(DirectoryListing::Directory *dir)$/;"	f	class:ShareBrowser
+updateLabel_gui	bookentry.cc	/^void BookEntry::updateLabel_gui()$/;"	f	class:BookEntry
+updateList_gui	publichubs.cc	/^void PublicHubs::updateList_gui()$/;"	f	class:PublicHubs
+updateParentRow_gui	search.cc	/^void Search::updateParentRow_gui(GtkTreeIter *parent, GtkTreeIter *child)$/;"	f	class:Search
+updateStats_gui	hashdialog.cc	/^void Hash::updateStats_gui(string file, int64_t bytes, size_t files, uint32_t tick)$/;"	f	class:Hash
+updateStatusIconTooltip_gui	mainwindow.cc	/^void MainWindow::updateStatusIconTooltip_gui(string download, string upload)$/;"	f	class:MainWindow
+updateStatus_gui	downloadqueue.cc	/^void DownloadQueue::updateStatus_gui()$/;"	f	class:DownloadQueue
+updateStatus_gui	finishedtransfers.cc	/^void FinishedTransfers::updateStatus_gui()$/;"	f	class:FinishedTransfers
+updateStatus_gui	sharebrowser.cc	/^void ShareBrowser::updateStatus_gui()$/;"	f	class:ShareBrowser
+updateTransfer_gui	mainwindow.cc	/^void MainWindow::updateTransfer_gui(StringMap params, bool download)$/;"	f	class:MainWindow
+updateUserCommandTextSent_gui	settingsdialog.cc	/^void Settings::updateUserCommandTextSent_gui()$/;"	f	class:Settings
+updateUser_gui	hub.cc	/^void Hub::updateUser_gui(ParamMap params)$/;"	f	class:Hub
+uploadPic	mainwindow.hh	/^		GdkPixbuf *uploadPic, *downloadPic;$/;"	m	class:MainWindow
+urgent	bookentry.hh	/^		bool urgent;$/;"	m	class:BookEntry
+user	sharebrowser.hh	/^		User::Ptr user;$/;"	m	class:ShareBrowser
+userCommandMenu	UserCommandMenu.hh	/^		GtkWidget *userCommandMenu;$/;"	m	class:UserCommandMenu
+userCommandMenu	hub.hh	/^		UserCommandMenu *userCommandMenu;$/;"	m	class:Hub
+userCommandMenu	mainwindow.hh	/^		UserCommandMenu *userCommandMenu;$/;"	m	class:MainWindow
+userCommandMenu	search.hh	/^		UserCommandMenu *userCommandMenu;$/;"	m	class:Search
+userCommandStore	settingsdialog.hh	/^			*windowStore2, *windowStore3, *advancedStore, *certificatesStore, *userCommandStore;$/;"	m	class:Settings
+userCommandView	settingsdialog.hh	/^			windowView3, advancedView, certificatesView, userCommandView;$/;"	m	class:Settings
+userIcons	hub.hh	/^		hash_map<std::string, GdkPixbuf *> userIcons;$/;"	m	class:Hub
+userIters	hub.hh	/^		hash_map<std::string, GtkTreeIter> userIters;$/;"	m	class:Hub
+userMap	hub.hh	/^		hash_map<std::string, std::string> userMap;$/;"	m	class:Hub
+users	UserCommandMenu.hh	/^		StringList users;$/;"	m	class:UserCommandMenu
+validateUserCommandInput	settingsdialog.cc	/^bool Settings::validateUserCommandInput(const string &oldName)$/;"	f	class:Settings
+view	treeview.hh	/^		GtkTreeView *view;$/;"	m	class:TreeView
+visible	treeview.hh	/^				bool visible;$/;"	m	class:TreeView::Column
+visibleColumns	treeview.hh	/^		int visibleColumns;$/;"	m	class:TreeView
+width	treeview.hh	/^				int width;$/;"	m	class:TreeView::Column
+window	mainwindow.hh	/^		GtkWindow *window;$/;"	m	class:MainWindow
+windowStore1	settingsdialog.hh	/^			*shareStore, *appearanceStore, *colorStore, *windowStore1,$/;"	m	class:Settings
+windowStore2	settingsdialog.hh	/^			*windowStore2, *windowStore3, *advancedStore, *certificatesStore, *userCommandStore;$/;"	m	class:Settings
+windowStore3	settingsdialog.hh	/^			*windowStore2, *windowStore3, *advancedStore, *certificatesStore, *userCommandStore;$/;"	m	class:Settings
+windowView1	settingsdialog.hh	/^			appearanceView, colorView, windowView1, windowView2,$/;"	m	class:Settings
+windowView2	settingsdialog.hh	/^			appearanceView, colorView, windowView1, windowView2,$/;"	m	class:Settings
+windowView3	settingsdialog.hh	/^			windowView3, advancedView, certificatesView, userCommandView;$/;"	m	class:Settings
+windowsSeparator	WulforUtil.cc	/^string WulforUtil::windowsSeparator(const string &ps)$/;"	f	class:WulforUtil
+xml	entry.hh	/^		GladeXML *xml;$/;"	m	class:Entry
+~BookEntry	bookentry.hh	/^		virtual ~BookEntry() {}$/;"	f	class:BookEntry
+~DialogEntry	dialogentry.cc	/^DialogEntry::~DialogEntry()$/;"	f	class:DialogEntry
+~DownloadQueue	downloadqueue.cc	/^DownloadQueue::~DownloadQueue()$/;"	f	class:DownloadQueue
+~Entry	entry.cc	/^Entry::~Entry()$/;"	f	class:Entry
+~FavoriteHubs	favoritehubs.cc	/^FavoriteHubs::~FavoriteHubs()$/;"	f	class:FavoriteHubs
+~FinishedTransfers	finishedtransfers.cc	/^FinishedTransfers::~FinishedTransfers()$/;"	f	class:FinishedTransfers
+~FuncBase	func.hh	/^		virtual ~FuncBase() {}$/;"	f	class:FuncBase
+~Hash	hashdialog.cc	/^Hash::~Hash()$/;"	f	class:Hash
+~Hub	hub.cc	/^Hub::~Hub()$/;"	f	class:Hub
+~MainWindow	mainwindow.cc	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~PrivateMessage	privatemessage.cc	/^PrivateMessage::~PrivateMessage()$/;"	f	class:PrivateMessage
+~PublicHubs	publichubs.cc	/^PublicHubs::~PublicHubs()$/;"	f	class:PublicHubs
+~Search	search.cc	/^Search::~Search()$/;"	f	class:Search
+~Settings	settingsdialog.cc	/^Settings::~Settings()$/;"	f	class:Settings
+~ShareBrowser	sharebrowser.cc	/^ShareBrowser::~ShareBrowser()$/;"	f	class:ShareBrowser
+~TreeView	treeview.cc	/^TreeView::~TreeView()$/;"	f	class:TreeView
+~UserCommandMenu	UserCommandMenu.hh	/^		virtual ~UserCommandMenu() {}$/;"	f	class:UserCommandMenu
+~WulforManager	wulformanager.cc	/^WulforManager::~WulforManager()$/;"	f	class:WulforManager
+~WulforSettingsManager	settingsmanager.cc	/^WulforSettingsManager::~WulforSettingsManager()$/;"	f	class:WulforSettingsManager

@@ -1,171 +1,261 @@
-file /home/Naresh/Projects/SysSec/linuxdcpp-1.0.3/SConstruct,line 75:
+file /home/Naresh/Projects/SysSec/FBLinuxDCPP/SConstruct,line 75:
 	Configure(confdir = build/sconf)
 scons: Configure: Checking for g++ >= 3.4...
 scons: Configure: (cached) yes
 
 scons: Configure: Checking for pkg-config... 
-pkg-config --version
-0.25
-scons: Configure: yes
+scons: Configure: "build/sconf/conftest_0" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --version
+  |
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for gtk+-2.0 >= 2.10... 
-pkg-config --exists 'gtk+-2.0 >= 2.10'
-scons: Configure: yes
+scons: Configure: "build/sconf/conftest_1" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'gtk+-2.0 >= 2.10'
+  |
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for gthread-2.0 >= 2.4... 
-pkg-config --exists 'gthread-2.0 >= 2.4'
-scons: Configure: yes
+scons: Configure: "build/sconf/conftest_2" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'gthread-2.0 >= 2.4'
+  |
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for libglade-2.0 >= 2.4... 
-pkg-config --exists 'libglade-2.0 >= 2.4'
-scons: Configure: yes
+scons: Configure: "build/sconf/conftest_3" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'libglade-2.0 >= 2.4'
+  |
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C header file time.h... 
-build/sconf/conftest_4.c <-
+scons: Configure: "build/sconf/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_4.c <-
+  |  |
+  |  |#include <time.h>
+  |  |
+  |  |
   |
-  |#include <time.h>
+scons: Configure: "build/sconf/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_4.o -c build/sconf/conftest_4.c
   |
-  |
-gcc -o build/sconf/conftest_4.o -c build/sconf/conftest_4.c
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C header file signal.h... 
-build/sconf/conftest_5.c <-
+scons: Configure: "build/sconf/conftest_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_5.c <-
+  |  |
+  |  |#include <signal.h>
+  |  |
+  |  |
   |
-  |#include <signal.h>
+scons: Configure: "build/sconf/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_5.o -c build/sconf/conftest_5.c
   |
-  |
-gcc -o build/sconf/conftest_5.o -c build/sconf/conftest_5.c
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C header file unistd.h... 
-build/sconf/conftest_6.c <-
+scons: Configure: "build/sconf/conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_6.c <-
+  |  |
+  |  |#include <unistd.h>
+  |  |
+  |  |
   |
-  |#include <unistd.h>
+scons: Configure: "build/sconf/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_6.o -c build/sconf/conftest_6.c
   |
-  |
-gcc -o build/sconf/conftest_6.o -c build/sconf/conftest_6.c
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C library pthread... 
-build/sconf/conftest_7.c <-
+scons: Configure: "build/sconf/conftest_7.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_7.c <-
+  |  |
+  |  |
+  |  |#include "pthread.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_7.o -c build/sconf/conftest_7.c
   |
-  |#include "pthread.h"
+scons: Configure: "build/sconf/conftest_7" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_7 build/sconf/conftest_7.o -lpthread
   |
-  |int
-  |main() {
-  |  
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_7.o -c build/sconf/conftest_7.c
-gcc -o build/sconf/conftest_7 build/sconf/conftest_7.o -lpthread
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C library z... 
-build/sconf/conftest_8.c <-
+scons: Configure: "build/sconf/conftest_8.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_8.c <-
+  |  |
+  |  |
+  |  |#include "zlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_8.o -c build/sconf/conftest_8.c
   |
-  |#include "zlib.h"
+scons: Configure: "build/sconf/conftest_8" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_8 build/sconf/conftest_8.o -lpthread -lz
   |
-  |int
-  |main() {
-  |  
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_8.o -c build/sconf/conftest_8.c
-gcc -o build/sconf/conftest_8 build/sconf/conftest_8.o -lpthread -lz
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C library bz2... 
-build/sconf/conftest_9.c <-
+scons: Configure: "build/sconf/conftest_9.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_9.c <-
+  |  |
+  |  |
+  |  |#include "bzlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_9.o -c build/sconf/conftest_9.c
   |
-  |#include "bzlib.h"
+scons: Configure: "build/sconf/conftest_9" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_9 build/sconf/conftest_9.o -lpthread -lz -lbz2
   |
-  |int
-  |main() {
-  |  
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_9.o -c build/sconf/conftest_9.c
-gcc -o build/sconf/conftest_9 build/sconf/conftest_9.o -lpthread -lz -lbz2
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C library crypto... 
-build/sconf/conftest_10.c <-
+scons: Configure: "build/sconf/conftest_10.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_10.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_10.o -c build/sconf/conftest_10.c
   |
+scons: Configure: "build/sconf/conftest_10" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_10 build/sconf/conftest_10.o -lpthread -lz -lbz2 -lcrypto
   |
-  |int
-  |main() {
-  |  
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_10.o -c build/sconf/conftest_10.c
-gcc -o build/sconf/conftest_10 build/sconf/conftest_10.o -lpthread -lz -lbz2 -lcrypto
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C library ssl... 
-build/sconf/conftest_11.c <-
+scons: Configure: "build/sconf/conftest_11.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_11.c <-
+  |  |
+  |  |
+  |  |#include "openssl/ssl.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_11.o -c build/sconf/conftest_11.c
   |
-  |#include "openssl/ssl.h"
+scons: Configure: "build/sconf/conftest_11" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_11 build/sconf/conftest_11.o -lpthread -lz -lbz2 -lcrypto -lssl
   |
-  |int
-  |main() {
-  |  
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_11.o -c build/sconf/conftest_11.c
-gcc -o build/sconf/conftest_11 build/sconf/conftest_11.o -lpthread -lz -lbz2 -lcrypto -lssl
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for C header file iconv.h... 
-build/sconf/conftest_12.c <-
+scons: Configure: "build/sconf/conftest_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_12.c <-
+  |  |
+  |  |#include <iconv.h>
+  |  |
+  |  |
   |
-  |#include <iconv.h>
+scons: Configure: "build/sconf/conftest_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_12.o -c build/sconf/conftest_12.c
   |
-  |
-gcc -o build/sconf/conftest_12.o -c build/sconf/conftest_12.c
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 scons: Configure: Checking for iconv(0, (const char **)0, 0, (char**)0, 0) in C library iconv... 
-build/sconf/conftest_13.c <-
+scons: Configure: "build/sconf/conftest_13.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_13.c <-
+  |  |
+  |  |
+  |  |#include "iconv.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  iconv(0, (const char **)0, 0, (char**)0, 0);
+  |  |return 0;
+  |  |}
+  |  |
   |
+scons: Configure: "build/sconf/conftest_13.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_13.o -c build/sconf/conftest_13.c
   |
-  |#include "iconv.h"
+scons: Configure: Building "build/sconf/conftest_13" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_13 build/sconf/conftest_13.o -lpthread -lz -lbz2 -lcrypto -lssl -liconv
   |
-  |int
-  |main() {
-  |  iconv(0, (const char **)0, 0, (char**)0, 0);
-  |return 0;
-  |}
-  |
-gcc -o build/sconf/conftest_13.o -c build/sconf/conftest_13.c
-build/sconf/conftest_13.c: In function ‘main’:
-build/sconf/conftest_13.c:7:3: warning: passing argument 2 of ‘iconv’ from incompatible pointer type
-/usr/include/iconv.h:43:15: note: expected ‘char ** __restrict__’ but argument is of type ‘const char **’
-gcc -o build/sconf/conftest_13 build/sconf/conftest_13.o -lpthread -lz -lbz2 -lcrypto -lssl -liconv
-/usr/bin/ld: cannot find -liconv
-collect2: ld returned 1 exit status
-scons: Configure: no
+scons: Configure: (cached) no
 
 scons: Configure: Checking for C header file net/if.h... 
-build/sconf/conftest_14.c <-
-  |#include <sys/types.h>
-  |#include <sys/socket.h>
-  |#include <ifaddrs.h>
+scons: Configure: "build/sconf/conftest_14.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf/conftest_14.c <-
+  |  |#include <sys/types.h>
+  |  |#include <sys/socket.h>
+  |  |#include <ifaddrs.h>
+  |  |
+  |  |#include <net/if.h>
+  |  |
+  |  |
   |
-  |#include <net/if.h>
+scons: Configure: "build/sconf/conftest_14.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf/conftest_14.o -c build/sconf/conftest_14.c
   |
-  |
-gcc -o build/sconf/conftest_14.o -c build/sconf/conftest_14.c
-scons: Configure: yes
+scons: Configure: (cached) yes
 
 

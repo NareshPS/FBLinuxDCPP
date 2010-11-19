@@ -8,6 +8,8 @@ gui_files = [
 	'hashdialog.cc',
 	'hub.cc',
 	'mainwindow.cc',
+#SSP: Adding fblauncher source file.
+	'fblauncher.cc',
 	'privatemessage.cc',
 	'publichubs.cc',
 	'search.cc',
