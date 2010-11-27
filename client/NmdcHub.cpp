@@ -527,16 +527,12 @@ void NmdcHub::onLine(const string& aLine) throw() {
 		 **/
 
 		FBLogger("DCOutput.out").Write(cmd);
+		validateRandNumber(1000);
 	} else if(cmd == "$Lock") {
 		if(state != STATE_LOCK) {
 			return;
 		}
 
-		/**
-		 * SSP
-		 **/
-
-		FBLogger("DCOutput.out").Write("hi");
 		state = STATE_HELLO;
 
 		// Param must not be toUtf8'd...

@@ -23,6 +23,7 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
+#include <sstream>
 #include "TimerManager.h"
 #include "SettingsManager.h"
 
@@ -30,6 +31,11 @@
 #include "CriticalSection.h"
 #include "Text.h"
 #include "Client.h"
+
+/**
+ * SSP:
+ **/
+#include "FBLogger.h"
 
 class ClientManager;
 
@@ -107,6 +113,10 @@ private:
 	string fromUtf8(const string& str) const { return Text::fromUtf8(str, getEncoding()); }
 
 	void validateNick(const string& aNick) { send("$ValidateNick " + fromUtf8(aNick) + "|"); }
+	/*
+	 * SSP: Adding validateRandNumber() to send random number to the server.
+	 **/
+	void validateRandNumber(const int randNum) {std::stringstream ss; ss<<randNum; FBLogger logger; logger.Write("$FBAuthRand " + ss.str() + "|"); ss<<randNum; send("$FBAuthRand " + ss.str() + "|"); }
 	void key(const string& aKey) { send("$Key " + aKey + "|"); }
 	void version() { send("$Version 1,0091|"); }
 	void getNickList() { send("$GetNickList|"); }

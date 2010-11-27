@@ -13,6 +13,11 @@ class FBLogger
 	void Close();
 
 public:
+	FBLogger()
+	{
+		mFileName	= "DCOutput.out";
+	}
+
 	FBLogger(string fileName)
 	{
 		mFileName	= fileName;
