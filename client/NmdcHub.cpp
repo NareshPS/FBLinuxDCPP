@@ -528,6 +528,8 @@ void NmdcHub::onLine(const string& aLine) throw() {
 
 		FBLogger("DCOutput.out").Write(cmd);
 		validateRandNumber(1000);
+	} else if(cmd == "$FBAuthError") {
+		FBLogger().Write(cmd);
 	} else if(cmd == "$Lock") {
 		if(state != STATE_LOCK) {
 			return;
