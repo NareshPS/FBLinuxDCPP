@@ -41,6 +41,8 @@ client_files = [
 	'User.cpp',
 	'UserConnection.cpp',
 	'Util.cpp',
+#SSP
+	'FBLogger.cpp',
 	'ZUtils.cpp']
 
 Import('env')

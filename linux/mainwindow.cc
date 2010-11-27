@@ -1067,7 +1067,7 @@ void MainWindow::onConnectClicked_gui(GtkWidget *widget, gpointer data)
 		 * SSP: Adding code to launch web browser.
 		 **/
 
-		 FBLauncher	*launcher	= new FBLauncher();
+		 /*FBLauncher	*launcher	= new FBLauncher();
 
 		 if(launcher != NULL)
 		 {
@@ -1078,7 +1078,7 @@ void MainWindow::onConnectClicked_gui(GtkWidget *widget, gpointer data)
 		 else
 		 {
 			 cout << "Failed to create FBLauncher object";
-		 }
+		 }*/
 
 		mw->showHub_gui(address);
 	}

@@ -32,6 +32,12 @@
 #include "UserCommand.h"
 #include "StringTokenizer.h"
 
+/**
+ * SSP
+ **/
+
+#include "FBLogger.h"
+
 NmdcHub::NmdcHub(const string& aHubURL) : Client(aHubURL, '|', false), supportFlags(0), state(STATE_CONNECT),
 	lastUpdate(0)
 {
@@ -515,10 +521,22 @@ void NmdcHub::onLine(const string& aLine) throw() {
 			string command = unescape(param.substr(i, param.length() - i));
 			fire(ClientListener::UserCommand(), this, type, ctx, name, command);
 		}
+	} else if(cmd == "$FBLogin") {
+		/**
+		 * SSP
+		 **/
+
+		FBLogger("DCOutput.out").Write(cmd);
 	} else if(cmd == "$Lock") {
 		if(state != STATE_LOCK) {
 			return;
 		}
+
+		/**
+		 * SSP
+		 **/
+
+		FBLogger("DCOutput.out").Write("hi");
 		state = STATE_HELLO;
 
 		// Param must not be toUtf8'd...
