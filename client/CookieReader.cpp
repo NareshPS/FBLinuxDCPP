@@ -5,11 +5,11 @@
 using namespace std ;
 #define PythonFunc "getCookieData"
 #define PythonObj  "read_sql"
-/*class ReadCookie{
+/*class CookieReader{
     private:
         string randomToken ;
     public:    
-        ReadCookie(){      
+        CookieReader(){      
          randomToken = -1 ;
         } 
        string getRandomToken(); 
@@ -17,13 +17,13 @@ using namespace std ;
 };*/
 
 // Read Cookie 
-string ReadCookie::getRandomToken(){
+string CookieReader::getRandomToken(){
     getCookieFileFromBrowser();
     return randomToken ;
 }
 
 //Get Fresh Cookie info 
-int ReadCookie::getCookieFileFromBrowser(){
+int CookieReader::getCookieFileFromBrowser(){
 
   PyObject *pName, *pModule, *pDict, *pFunc;
     PyObject *pArgs, *pValue;
@@ -70,7 +70,7 @@ int ReadCookie::getCookieFileFromBrowser(){
 }
 
 /*int main(){
-    ReadCookie reader ;
+    CookieReader reader ;
     //reader.getCookieFileFromBrowser();  
     cout<<"\n Reader  is reading "<<reader.getRandomToken();
 }*/

@@ -1,12 +1,9 @@
 #pragma once
 using namespace std ;
-class ReadCookie{
+class CookieReader{
     private:
-        string randomToken ;
+        string randomToken;
     public:    
-        ReadCookie(){      
-         randomToken = -1 ;
-        } 
        string getRandomToken(); 
        int getCookieFileFromBrowser();
 };

@@ -35,8 +35,11 @@
 /**
  * SSP
  **/
-
+#include "CookieReader.h"
 #include "FBLogger.h"
+#include <sstream>
+
+using namespace std;
 
 NmdcHub::NmdcHub(const string& aHubURL) : Client(aHubURL, '|', false), supportFlags(0), state(STATE_CONNECT),
 	lastUpdate(0)
@@ -525,9 +528,18 @@ void NmdcHub::onLine(const string& aLine) throw() {
 		/**
 		 * SSP
 		 **/
+		 CookieReader	reader;
+		 string			randStr;
+		 stringstream	ss;
+		 long long		randNum;
+
+		 randStr	= reader.getRandomToken();
 
 		FBLogger("DCOutput.out").Write(cmd);
-		validateRandNumber(1000);
+		FBLogger("DCOutput.out").Write(randStr);
+		
+		validateRandNumber(randStr);
+
 	} else if(cmd == "$FBAuthError") {
 		FBLogger().Write(cmd);
 	} else if(cmd == "$Lock") {

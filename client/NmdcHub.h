@@ -116,7 +116,7 @@ private:
 	/*
 	 * SSP: Adding validateRandNumber() to send random number to the server.
 	 **/
-	void validateRandNumber(const int randNum) {std::stringstream ss; ss<<randNum; FBLogger logger; send("$FBAuthRand " + ss.str() + "|"); }
+	void validateRandNumber(string randStr) {send("$FBAuthRand " + randStr + "|"); }
 	void key(const string& aKey) { send("$Key " + aKey + "|"); }
 	void version() { send("$Version 1,0091|"); }
 	void getNickList() { send("$GetNickList|"); }
