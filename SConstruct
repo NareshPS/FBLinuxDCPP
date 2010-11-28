@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from distutils.core import setup
 import os
 import commands
 import string
@@ -49,6 +50,7 @@ if 'install' in COMMAND_LINE_TARGETS:
 else:
 	opts = Options()
 
+
 opts.AddOptions(
 	BoolOption('debug', 'Compile the program with debug information', 0),
 	BoolOption('release', 'Compile the program with optimizations', 0),
@@ -92,6 +94,7 @@ if os.environ.has_key('CFLAGS'):
 env.SConsignFile('build/sconf/.sconsign')
 opts.Save('build/sconf/scache.conf', env)
 Help(opts.GenerateHelpText(env))
+
 
 # ----------------------------------------------------------------------
 # Dependencies
@@ -155,6 +158,12 @@ if not 'install' in COMMAND_LINE_TARGETS:
 		print '\tcrypto library not found'
 		print '\tNote: This library may be a part of libssl on your system'
 		Exit(1)
+        
+	if not conf.CheckLib('python2.6'):
+		print '\tpython2.6 library not found'
+		print '\tNote: This library may be a part of python2.6 on your system'
+		Exit(1)
+
 
 	if not conf.CheckLibWithHeader('ssl', 'openssl/ssl.h', 'c'):
 		print '\tOpenSSL library (libssl) not found'
@@ -176,7 +185,7 @@ if not 'install' in COMMAND_LINE_TARGETS:
 # Compile and link flags
 # ----------------------------------------------------------------------
 
-	env.Append(CXXFLAGS = ['-I.', '-D_GNU_SOURCE', '-D_LARGEFILE_SOURCE', '-D_FILE_OFFSET_BITS=64', '-D_REENTRANT'])
+	env.Append(CXXFLAGS = ['-I.', '-D_GNU_SOURCE', '-D_LARGEFILE_SOURCE', '-D_FILE_OFFSET_BITS=64', '-D_REENTRANT', '-I/usr/include/python2.6/' ])
 
 	if os.sys.platform == 'linux2':
 		env.Append(LINKFLAGS = ['-Wl,--as-needed'])
@@ -204,10 +213,8 @@ if not 'install' in COMMAND_LINE_TARGETS:
 
 	if env.has_key('PREFIX') and env['PREFIX']:
 		env.Append(CXXFLAGS = '-D_DATADIR=\'\"' + env['PREFIX'] + '/share' + '\"\'')
-
-	env.ParseConfig('pkg-config --libs libglade-2.0')
+	env.ParseConfig('pkg-config --libs libglade-2.0 ')
 	env.ParseConfig('pkg-config --libs gthread-2.0')
-
 
 # ----------------------------------------------------------------------
 # Build
@@ -272,3 +279,6 @@ else:
 	env.Alias('install', env.Install(dir = env['FAKE_ROOT'] + env['PREFIX'] + '/share/linuxdcpp/pixmaps', source = pixmap_files))
 	env.Alias('install', env.Install(dir = env['FAKE_ROOT'] + env['PREFIX'] + '/share/doc/linuxdcpp', source = text_files))
 	env.Alias('install', env.Install(dir = env['FAKE_ROOT'] + env['PREFIX'] + '/bin', source = 'linuxdcpp'))
+
+
+

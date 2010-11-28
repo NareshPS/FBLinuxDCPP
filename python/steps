@@ -1,0 +1,7 @@
+
+gcc call_python.c  -I /usr/include/python2.6/ -lpython2.6
+ 2040  ./a.out call mutlitply 1 2
+ 2041  ./a.out call.py  mutlitply 1 2
+ 2047  sudo python setup.py install
+ 2048  sudo ./a.out call  mutlitply 1 2
+

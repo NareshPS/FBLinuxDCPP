@@ -43,6 +43,7 @@ client_files = [
 	'Util.cpp',
 #SSP
 	'FBLogger.cpp',
+    'CookieReader.cpp',
 	'ZUtils.cpp']
 
 Import('env')
